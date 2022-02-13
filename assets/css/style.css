@@ -48,20 +48,21 @@ img {
     box-shadow:inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
     text-align:center;
     position:relative;
+    border: 2px solid black;
 }
 
 /*this is for the button dropping upon being clicked, css animation*/
 .button:active {
-    background-color: red;
-    box-shadow: 0 5px darkgray;
+    background-color: blue;
+    box-shadow: 0 5px black;
     transform: translateY(4px);
 }
 
 /*hover feature to show user button is active upon hovering*/
 .button:hover {
-    background-color: red;
+    background-color: blue;
     color: white;
-    box-shadow: 0 5px 5px 0 white, 0 5px 10px 0 white;
+    box-shadow: 0 5px 5px 0 green, 0 5px 10px 0 green;
   }
 
   /*styling for header on home page*/
@@ -76,7 +77,7 @@ h1 {
 
   /*background image for game screen*/
 .clone-wars {
-    background-image: url("../../assets/images/captain-rex.jpg");
+    background-image: url("../../assets/images/red-trooper.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -128,7 +129,7 @@ header a {
 #farleft {
     display: inline-block;
     background: darkgreen;
-    background-image: url("../../assets/images/camo-trooper.jpg");
+    background-image: url("../../assets/images/panel-images/green-clone.jpg");
     background-repeat: no-repeat;
     background-size: 80%;
     height: 225px;
@@ -141,6 +142,9 @@ header a {
 #middleleft {
     display: inline-block;
     background: darkred;
+    background-image: url("../../assets/images/panel-images/red-clone.jpg");
+    background-repeat: no-repeat;
+    background-size: 80%;
     height: 225px;
     width: 225px;
     margin-right: 3%;
@@ -151,6 +155,9 @@ header a {
 #middleright {
     display: inline-block;
     background: goldenrod;
+    background-image: url("../../assets/images/panel-images/yellow-clone.jpg");
+    background-repeat: no-repeat;
+    background-size: 80%;
     height: 225px;
     width: 225px;
     margin-right: 3%;
@@ -161,6 +168,9 @@ header a {
 #farright {
     display: inline-block;
     background: darkblue;
+    background-image: url("../../assets/images/panel-images/blue2-clone.jpg");
+    background-repeat: no-repeat;
+    background-size: 80%;
     height: 225px;
     width: 225px;
     margin-right: 3%;
@@ -179,7 +189,7 @@ header a {
     text-align: center;
     position: absolute;
     margin-left: 47%;
-    background: white;
+    background: black;
     color: red;
     font-size: 20px;
     height: 40px;
@@ -228,7 +238,7 @@ header a {
   }
 
 .form-background {
-    background-image: url("../../assets/images/red-trooper.jpg");
+    background-image: url("../../assets/images/captain-rex.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
