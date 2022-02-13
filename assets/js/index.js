@@ -63,3 +63,44 @@ startButton.addEventListener('click', (event) => {
         play();
     }
 });
+
+//this function included variables so that the game resets after use
+function play() {
+    win = false;
+    order = [];
+    playerOrder = [];
+    flash = 0;
+    intervalId = 0;
+    turn = 1;
+    turnCounter.innerHTML = 1;
+    good = true;
+    for (var i = 0; i < 20; i++) {
+      order.push(Math.floor(Math.random() * 4) + 1); //generating numbers for the pattern
+    }
+    compTurn = true;
+
+    //this sets the time between flashes for the game
+    intervalId = setInterval(gameTurn, 800);
+  }
+
+  function gameTurn() {
+    power = false; //stops user from being able to click buttons while the computers turn is flashing
+  
+    //if the amount of flashes equals the turn counter, this means the computers turn is over
+    if (flash == turn) {
+      clearInterval(intervalId);
+      compTurn = false;
+      clearColor();
+      power = true;
+    }
+    if (compTurn) {
+      clearColor();
+      setTimeout(() => {
+        if (order[flash] == 1) one();
+        if (order[flash] == 2) two();
+        if (order[flash] == 3) three();
+        if (order[flash] == 4) four();
+        flash++;
+      }, 200);
+    }
+  }
