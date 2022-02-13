@@ -227,6 +227,7 @@ function check() {
     }
   
     if (good == false) {
+      alert("The greatest teacher, failure is, better luck next time soldier!");
       flashColor();
       turnCounter.innerHTML = "NO!";
       setTimeout(() => {
@@ -264,6 +265,7 @@ function winGame() {
     turnCounter.innerHTML = "WIN!";
     power = false;
     win = true;
+    alert("Well done soldier, you've hit all the targets!");
   }
   
   
