@@ -13,11 +13,11 @@ let compTurn;
 
 let intervalId;
 //this checks weather the strict box has been checked:
-let strict = false;
+let accuracy = false;
 //this is for the noises that the panels make when flashing:
 let noise = true;
 //checks if the power button has been turned on for the game:
-let on = false;
+let power = false;
 //tells us if the player has won the game or not:
 let win;
 
@@ -31,26 +31,26 @@ const middleRight = document.querySelector("#middleright");
 const farRight = document.querySelector("#farright");
 
 //variables for the switches in the game:
-const strictButton = document.querySelector("#strict");
-const onButton = document.querySelector("#on");
+const accuracyButton = document.querySelector("#accuracy");
+const powerButton = document.querySelector("#power");
 const startButton = document.querySelector("#start");
 
 //for checking weather the strict button has been activated or not:
-strictButton.addEventListener('click', (event) => {
-    if(strictButton.checked == true){
-        strict = true;
+accuracyButton.addEventListener('click', (event) => {
+    if(accuracyButton.checked == true){
+      accuracy = true;
     } else {
-        strict = false;
+      accuracy = false;
     }
 });
 
 //what to do once the power button has been engaged:
-onButton.addEventListener('click', (event) => {
-    if(onButton.checked == true){
-        on = true;
+powerButton.addEventListener('click', (event) => {
+    if(powerButton.checked == true){
+        power = true;
         turnCounter.innerHTML = "-"; //to create the lines in counter to show power button has been activated:
     } else {
-        on = false;
+        power = false;
         turnCounter.innerHTML = "";
         clearColor();
         clearInterval(intervalId); // stops the game from flashing after the game has ended:
@@ -59,7 +59,7 @@ onButton.addEventListener('click', (event) => {
 
 //this activates the game if/when the start button has been 'clicked':
 startButton.addEventListener('click', (event) => {
-    if (on || win) {
+    if (power || win) {
         play();
     }
 });
@@ -84,14 +84,14 @@ function play() {
   }
 
   function gameTurn() {
-    on = false; //stops user from being able to click buttons while the computers turn is flashing:
+    power = false; //stops user from being able to click buttons while the computers turn is flashing:
   
     //if the amount of flashes equals the turn counter, this means the computers turn is over:
     if (flash == turn) {
       clearInterval(intervalId);
       compTurn = false;
       clearColor();
-      on = true;
+      power = true;
     }
     if (compTurn) {
       clearColor();
@@ -163,7 +163,7 @@ function clearColor() {
 
 
 farLeft.addEventListener('click', (event) => {
-    if (on) {
+    if (power) {
       playerOrder.push(1);
       check();
       one();
@@ -176,7 +176,7 @@ farLeft.addEventListener('click', (event) => {
   })
   
   middleLeft.addEventListener('click', (event) => {
-    if (on) {
+    if (power) {
       playerOrder.push(2);
       check();
       two();
@@ -189,7 +189,7 @@ farLeft.addEventListener('click', (event) => {
   })
   
   middleRight.addEventListener('click', (event) => {
-    if (on) {
+    if (power) {
       playerOrder.push(3);
       check();
       three();
@@ -202,7 +202,7 @@ farLeft.addEventListener('click', (event) => {
   })
   
   farRight.addEventListener('click', (event) => {
-    if (on) {
+    if (power) {
       playerOrder.push(4);
       check();
       four();
@@ -233,7 +233,7 @@ function check() {
         turnCounter.innerHTML = turn;
         clearColor();
   
-        if (strict) {
+        if (accuracy) {
           play();
         } else {
           compTurn = true;

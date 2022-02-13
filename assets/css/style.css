@@ -128,6 +128,9 @@ header a {
 #farleft {
     display: inline-block;
     background: darkgreen;
+    background-image: url("../../assets/images/camo-trooper.jpg");
+    background-repeat: no-repeat;
+    background-size: 80%;
     height: 225px;
     width: 225px;
     margin-right: 3%;
@@ -175,7 +178,7 @@ header a {
 #turn {
     text-align: center;
     position: absolute;
-    margin-left: 49%;
+    margin-left: 47%;
     background: white;
     color: red;
     font-size: 20px;
@@ -189,5 +192,5 @@ header a {
 .text2 {
     font-size: 120%;
     margin-top: 2%;
-    margin-left: 48%;
+    margin-left: 46%;
   }
