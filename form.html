@@ -10,7 +10,7 @@
 <body class="form-background">
     <header>
            <a href="index.html">
-              <h2 id="logo"></h2>
+              <h2 id="logo">Clone Wars Memory Game</h2>
            </a>
         <!--navigation bar-->
            <nav>
@@ -23,11 +23,25 @@
                    </li>
                </ul>
            </nav>
+           <!--<h2 class="feedback-title">Feedback Form</h2>-->
      </header>
-    <div>
-        <h1></h1>
-        <p></p>
-    </div>
+    <section class="form-section">
+        <form action="https://formdump.codeinstitute.net/" method="post" class="feedback"></form>
+            <label for="player-name">Player Name</label>
+		    <input class="text-input" id="player-name" type="text" name="player-name" required aria-label="player-name">
+		    <label for="date-played">Date Played</label>
+			<input id="date-played" type="date" name="date-played" required aria-label="date-played">
+            <br>
+			<label for="change">What would you change?</label>
+			<input class="text-input2" id="change" type="text" name="change" required aria-label="What-would-you-change">
+			<label for="favourite">Favourite aspects of the game</label>
+			<input class="text-input2" id="favourite" type="text" name="favourite" required aria-label="favourite-aspects-of-the-game">
+			<label for="other">Other Comments/feedback</label>
+			<input class="text-input2" id="other" type="text" name="other" required aria-label="Other-Comments-feedback">
+            <input class="submit" type="submit" value="submit" aria-label="submit"> 
+			</form>
+
+    </section>
     
 </body>
 </html>
