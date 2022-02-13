@@ -125,7 +125,7 @@ header a {
     margin-top: 10%;
 }
 
-#farright {
+#farleft {
     display: inline-block;
     background: darkgreen;
     height: 225px;
@@ -135,7 +135,7 @@ header a {
     cursor: pointer;
 }
 
-#middleright {
+#middleleft {
     display: inline-block;
     background: darkred;
     height: 225px;
@@ -145,7 +145,7 @@ header a {
     cursor: pointer;
 }
 
-#middleleft {
+#middleright {
     display: inline-block;
     background: goldenrod;
     height: 225px;
@@ -155,7 +155,7 @@ header a {
     cursor: pointer;
 }
 
-#farleft {
+#farright {
     display: inline-block;
     background: darkblue;
     height: 225px;

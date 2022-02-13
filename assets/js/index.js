@@ -17,6 +17,49 @@ let strict = false;
 //this is for the noises that the panels make when flashing
 let noise = true;
 //checks if the power button has been turned on for the game
-let on = false;
+let power = false;
 //tells us if the player has won the game or not
 let win;
+
+//the digital display of turns in the game w/ css selector #turn
+const turnCounter = document.querySelector("#turn");
+
+//variables for the 4 panels in the game
+const farleft = document.querySelector("#topLeft");
+const middleleft = document.querySelector("#topright");
+const middleright = document.querySelector("#bottomLeft");
+const farright = document.querySelector("#bottomright");
+
+//variables for the switches in the game
+const strictButton = document.querySelector("#strict");
+const powerButton = document.querySelector("#on");
+const startButton = document.querySelector("#start");
+
+//for checking weather the strict button has been activated or not
+strictButton.addEventListener('click', (event) => {
+    if(strictButton.checked == true){
+        strict = true;
+    } else {
+        strict = false;
+    }
+});
+
+//what to do once the power button has been engaged
+powerButton.addEventListener('click', (event) => {
+    if(powerButton.checked == true){
+        power = true;
+        turnCounter.innerHTML = "-"; //to create the lines in counter to show power button has been activated
+    } else {
+        power = false;
+        turnCounter.innerHTML = "";
+        clearColor();
+        clearInterval(intervalId); // stops the game from flashing after the game has ended
+    }
+});
+
+//this activates the game if/when the start button has been 'clicked'
+startButton.addEventListener('click', (event) => {
+    if (power || win) {
+        play();
+    }
+});
