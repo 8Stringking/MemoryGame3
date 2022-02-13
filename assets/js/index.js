@@ -109,13 +109,22 @@ function play() {
 *this function is for the noise to be heard in the game and changing the css  
 *using .style to make the panels change color when they flash for each of the panels
 */
+function one() {
+    if (noise) {
+      let audio = document.getElementById("clip1");
+      audio.play();
+    }
+    noise = true;
+    farleft.style.backgroundColor = "lightgreen";
+  }
+
   function two() {
     if (noise) {
       let audio = document.getElementById("clip2");
       audio.play();
     }
     noise = true;
-    topRight.style.backgroundColor = "tomato";
+    middleleft.style.backgroundColor = "tomato";
   }
   
   function three() {
@@ -124,7 +133,7 @@ function play() {
       audio.play();
     }
     noise = true;
-    bottomLeft.style.backgroundColor = "yellow";
+    middleright.style.backgroundColor = "yellow";
   }
   
   function four() {
@@ -133,5 +142,128 @@ function play() {
       audio.play();
     }
     noise = true;
-  bottomRight.style.backgroundColor = "lightskyblue";
+  farright.style.backgroundColor = "lightskyblue";
 }
+
+//this is to revert panels to orignal colors after flashing
+function clearColor() {
+    farleft.style.backgroundColor = "darkgreen";
+    middleleft.style.backgroundColor = "darkred";
+    middleright.style.backgroundColor = "goldenrod";
+    farright.style.backgroundColor = "darkblue";
+  }
+
+  //this is what the colors will flash to 
+  function flashColor() {
+    farleft.style.backgroundColor = "lightgreen";
+    middleleft.style.backgroundColor = "tomato";
+    middleright.style.backgroundColor = "yellow";
+    farright.style.backgroundColor = "lightskyblue";
+  }
+
+
+farleft.addEventListener('click', (event) => {
+    if (power) {
+      playerOrder.push(1);
+      check();
+      one();
+      if(!win) {
+        setTimeout(() => {
+          clearColor();
+        }, 300);
+      }
+    }
+  })
+  
+  middleleft.addEventListener('click', (event) => {
+    if (power) {
+      playerOrder.push(2);
+      check();
+      two();
+      if(!win) {
+        setTimeout(() => {
+          clearColor();
+        }, 300);
+      }
+    }
+  })
+  
+  middleright.addEventListener('click', (event) => {
+    if (power) {
+      playerOrder.push(3);
+      check();
+      three();
+      if(!win) {
+        setTimeout(() => {
+          clearColor();
+        }, 300);
+      }
+    }
+  })
+  
+  farright.addEventListener('click', (event) => {
+    if (power) {
+      playerOrder.push(4);
+      check();
+      four();
+      if(!win) {
+        setTimeout(() => {
+          clearColor();
+        }, 300);
+      }
+    }
+  })
+
+/*
+*setting the amount of rounds to win and setting parameters for player loosing
+*and to get the game to restart flashing if the player hits an incorrect panel
+*/
+function check() {
+    if (playerOrder[playerOrder.length - 1] !== order[playerOrder.length - 1])
+      good = false;
+  
+    if (playerOrder.length == 3 && good) {
+      winGame();
+    }
+  
+    if (good == false) {
+      flashColor();
+      turnCounter.innerHTML = "NO!";
+      setTimeout(() => {
+        turnCounter.innerHTML = turn;
+        clearColor();
+  
+        if (strict) {
+          play();
+        } else {
+          compTurn = true;
+          flash = 0;
+          playerOrder = [];
+          good = true;
+          intervalId = setInterval(gameTurn, 800);
+        }
+      }, 800);
+  
+      noise = false;
+    }
+  
+    if (turn == playerOrder.length && good && !win) {
+      turn++;
+      playerOrder = [];
+      compTurn = true;
+      flash = 0;
+      turnCounter.innerHTML = turn;
+      intervalId = setInterval(gameTurn, 800);
+    }
+  
+  }
+
+//for when the player wins the game
+function winGame() {
+    flashColor();
+    turnCounter.innerHTML = "WIN!";
+    power = false;
+    win = true;
+  }
+  
+  
