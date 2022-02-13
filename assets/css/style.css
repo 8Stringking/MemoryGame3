@@ -122,46 +122,33 @@ header a {
 /*this is the div that the 4 panels sit in, and the styling to centralise the game*/
 #game {
     text-align: center;
-    margin-top: 5%;
-    display: inline-block;
+    margin-top: 10%;
 }
 
 #farright {
+    display: inline-block;
     background: darkgreen;
-    /*display: inline-block;*/
     height: 225px;
     width: 225px;
-    margin-top: 8%;
-    margin-right: 3%;
-    margin-left: 3%;
 }
 
 #middleright {
+    display: inline-block;
     background: darkred;
-    /*display: inline-block;*/
     height: 225px;
     width: 225px;
-    margin-top: 8%;
-    margin-right: 3%;
-    margin-left: 3%;
 }
 
 #middleleft {
+    display: inline-block;
     background: goldenrod;
-    /*display: inline-block;*/
     height: 225px;
     width: 225px;
-    margin-top: 8%;
-    margin-right: 3%;
-    margin-left: 3%;
 }
 
 #farleft {
+    display: inline-block;
     background: darkblue;
-    /*display: inline-block;*/
     height: 225px;
     width: 225px;
-    margin-top: 8%;
-    margin-right: 3%;
-    margin-left: 3%;
 }
