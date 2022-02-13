@@ -73,3 +73,48 @@ h1 {
     letter-spacing: 10px; 
     text-shadow: 5px 5px 5px greenyellow;
   }
+
+  /*background image for game screen*/
+.clone-wars {
+    background-image: url("../../assets/images/captain-rex.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*code for title of the game page and its styling*/
+header a {
+    text-decoration: underline;
+    color: #fff;
+    text-align: center; 
+    font-size: 120%; 
+    letter-spacing: 10px; 
+    text-shadow: 5px 5px 5px red;
+}
+
+/*styling for the game nav bar*/
+#menu{
+    font-size: 100%;
+    color: #ffffff;
+}
+
+#menu li {
+    float: right;
+    letter-spacing: 5px;
+    display: inline;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+}
+
+/*styling for showing active pages to indicate which page the user is on*/
+#menu a:hover{
+    border-bottom: 1px solid yellow;
+    color: red;
+}
+
+.active-page {
+    border-bottom: 1px solid red;
+}
