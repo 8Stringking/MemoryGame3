@@ -61,7 +61,7 @@ img {
 .button:hover {
     background-color: red;
     color: white;
-    box-shadow: 0 10px 10px 0 white, 0 10px 50px 0 white;
+    box-shadow: 0 5px 5px 0 white, 0 5px 10px 0 white;
   }
 
   /*styling for header on home page*/
@@ -196,10 +196,9 @@ header a {
   }
 
 /*styling for the feedback button leading to the feedback form page*/
-.feedback-form {
+.feedback-button {
     font-family: 'Orbitron', sans-serif;
     letter-spacing: 5px;
-    display:inline-block;
     padding: 15px 32px;
     margin: 4px 2px;
     border-radius:0.15em;
@@ -207,23 +206,30 @@ header a {
     text-decoration:none;
     text-transform:uppercase;
     font-weight:400;
-    color:#FFFFFF;
+    color:white;
     background-color:darkblue;
     box-shadow:inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
     text-align:right;
-    position:relative;
+    float: right;
 }
 
 /*this is for the button dropping upon being clicked, css animation*/
-.button:active {
+.feedback-button:active {
     background-color: black;
     /*box-shadow: 0 5px darkgray;*/
     transform: translateY(4px);
 }
 
 /*hover feature to show user button is active upon hovering*/
-.button:hover {
+.feedback-button:hover {
     background-color: blue;
     color: white;
-    box-shadow: 0 10px 10px 0 #32CD32, 0 10px 50px 0 #32CD32;
+    box-shadow: 0 5px 5px 0 #32CD32, 0 5px 10px 0 #32CD32;
   }
+
+.form-background {
+    background-image: url("../../assets/images/red-trooper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+}
