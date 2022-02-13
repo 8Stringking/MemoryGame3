@@ -49,3 +49,27 @@ img {
     text-align:center;
     position:relative;
 }
+
+/*this is for the button dropping upon being clicked, css animation*/
+.button:active {
+    background-color: red;
+    box-shadow: 0 5px darkgray;
+    transform: translateY(4px);
+}
+
+/*hover feature to show user button is active upon hovering*/
+.button:hover {
+    background-color: red;
+    color: white;
+    box-shadow: 0 10px 10px 0 white, 0 10px 50px 0 white;
+  }
+
+  /*styling for header on home page*/
+h1 {
+    text-align: center;
+    margin-top: 10%;
+    font-size: 300%;
+    font-weight: 300;
+    letter-spacing: 10px; 
+    text-shadow: 5px 5px 5px greenyellow;
+  }
