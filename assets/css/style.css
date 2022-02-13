@@ -130,6 +130,9 @@ header a {
     background: darkgreen;
     height: 225px;
     width: 225px;
+    margin-right: 3%;
+    margin-left: 3%;
+    cursor: pointer;
 }
 
 #middleright {
@@ -137,6 +140,9 @@ header a {
     background: darkred;
     height: 225px;
     width: 225px;
+    margin-right: 3%;
+    margin-left: 3%;
+    cursor: pointer;
 }
 
 #middleleft {
@@ -144,6 +150,9 @@ header a {
     background: goldenrod;
     height: 225px;
     width: 225px;
+    margin-right: 3%;
+    margin-left: 3%;
+    cursor: pointer;
 }
 
 #farleft {
@@ -151,4 +160,34 @@ header a {
     background: darkblue;
     height: 225px;
     width: 225px;
+    margin-right: 3%;
+    margin-left: 3%;
+    cursor: pointer;
 }
+
+/*all styling for the switches section at the bottom of the screen*/
+#switches {
+    text-align: center;
+    margin-top: 5%;
+}
+
+/*this is for the turn counter in the game*/
+#turn {
+    text-align: center;
+    position: absolute;
+    margin-left: 49%;
+    background: white;
+    color: red;
+    font-size: 20px;
+    height: 40px;
+    width: 50px;
+    /*vertical-align: middle;*/
+    line-height: 40px;
+  }
+
+/*styling for the count text*/
+.text2 {
+    font-size: 120%;
+    margin-top: 2%;
+    margin-left: 48%;
+  }
