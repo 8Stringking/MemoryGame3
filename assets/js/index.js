@@ -104,3 +104,34 @@ function play() {
       }, 200);
     }
   }
+
+  /*
+*this function is for the noise to be heard in the game and changing the css  
+*using .style to make the panels change color when they flash for each of the panels
+*/
+  function two() {
+    if (noise) {
+      let audio = document.getElementById("clip2");
+      audio.play();
+    }
+    noise = true;
+    topRight.style.backgroundColor = "tomato";
+  }
+  
+  function three() {
+    if (noise) {
+      let audio = document.getElementById("clip3");
+      audio.play();
+    }
+    noise = true;
+    bottomLeft.style.backgroundColor = "yellow";
+  }
+  
+  function four() {
+    if (noise) {
+      let audio = document.getElementById("clip4");
+      audio.play();
+    }
+    noise = true;
+  bottomRight.style.backgroundColor = "lightskyblue";
+}
