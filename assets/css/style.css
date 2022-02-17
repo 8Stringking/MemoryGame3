@@ -330,7 +330,7 @@ header a {
 @media screen and (max-width: 400px) {
   /*for the home screen background image which changes on mobile devices*/
     .enter-battlefield {
-        background-image: url("../../assets/images/rex-alert-pic.jpg");
+        background-image: url("../../assets/images/rexmobile.jpg");
         max-height: auto;
         height: auto;
     }
@@ -342,25 +342,25 @@ header a {
     }
 
       /*styling for header on home page*/
-h1 {
-    text-align: center;
-    font-size: 250%;
-    font-weight: 300;
-    letter-spacing: 5px; 
-    text-shadow: 5px 5px 5px greenyellow;
+    h1 {
+        text-align: center;
+        font-size: 250%;
+        font-weight: 300;
+        letter-spacing: 5px; 
+        text-shadow: 5px 5px 5px greenyellow;
   }
-
 
     .button {
         font-weight: 300;
         letter-spacing: 5px;
+        padding: 10px 15px;
     }
 
     /*code for title of the game page and its styling*/
     header a {
-    font-size: 100%; 
-    letter-spacing: 5px; 
-    text-shadow: 5px 5px 5px red;
+        font-size: 100%; 
+        letter-spacing: 5px; 
+        text-shadow: 5px 5px 5px red;
     }
 
     #menu li {
@@ -369,26 +369,62 @@ h1 {
     }
 
     #farleft {
-        height: 150px;
+        height: 135px;
         width: 100px;
         margin-top: 5%;
     }
 
     #middleleft {
-        height: 150px;
+        height: 135px;
         width: 100px;
     }
     
     #middleright {
-        height: 150px;
+        height: 135px;
         width: 100px;
     }
     
     #farright {
-        height: 150px;
+        height: 135px;
         width: 100px;
-        
     }
+
+    
+    /*all styling for the switches section at the bottom of the screen*/
+    #switches {
+        text-align: center;
+        margin-top: 1%;
+        font-size: 80%;
+}
+
+    /*this is for the turn counter in the game*/
+    #turn {
+        margin-left: 45%;
+        background: black;
+        color: red;
+        font-size: 20px;
+        height: 30px;
+        width: 40px;
+    /*vertical-align: middle;*/
+    line-height: 20px;
+  }
+
+/*styling for the count text*/
+.texttwo {
+    font-size: 80%;
+    margin-top: 1%;
+    margin-left: 45%;
+  }
+
+  /*styling for the feedback button leading to the feedback form page*/
+.feedback-button {
+    margin-top: 10%;
+    padding: 15px 15px;
+    font-weight:250; 
+    text-align:right;
+    float: right;
+}
+
 }
 
 
