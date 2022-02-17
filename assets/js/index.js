@@ -1,3 +1,5 @@
+
+
 //variable to keep track of the order of the lights:
 let order = [];
 //the order that the player is pressing the lights in:
@@ -262,10 +264,10 @@ function check() {
 //for when the player wins the game:
 function winGame() {
     flashColor();
-    turnCounter.innerHTML = "WIN!";
+    turnCounter.innerHTML = "HIT!";
     power = false;
     win = true;
-    alert("Well done soldier, you've hit all the targets!");
+    alert("Well done soldier, you've hit all the targets! Welcome to the 501st!");
   }
   
   

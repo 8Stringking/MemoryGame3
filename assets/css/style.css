@@ -48,7 +48,7 @@ img {
     box-shadow:inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
     text-align:center;
     position:relative;
-    border: 2px solid black;
+    border: 2px solid white;
 }
 
 /*this is for the button dropping upon being clicked, css animation*/
@@ -303,6 +303,92 @@ header a {
 .submit:hover{
     background-color: #fafafa;
     color: #f16c6b;
+}
+
+/*this section is all for media queries to make each page responsive to different devices*/
+/* For large to medium screens sizes from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+}
+
+
+
+
+/* For large to medium screens sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+}
+
+
+
+/*For large to medium screens sizes from 600px wide and down */
+@media screen and (max-width: 600px) {
+}
+
+
+
+
+/* For small screens sizes from 400px wide and down */
+@media screen and (max-width: 400px) {
+  /*for the home screen background image which changes on mobile devices*/
+    .enter-battlefield {
+        background-image: url("../../assets/images/rex-alert-pic.jpg");
+        max-height: auto;
+        height: auto;
+    }
+
+    img {
+        width: auto;
+        max-width: 100%;
+        height: auto;
+    }
+
+      /*styling for header on home page*/
+h1 {
+    text-align: center;
+    font-size: 250%;
+    font-weight: 300;
+    letter-spacing: 5px; 
+    text-shadow: 5px 5px 5px greenyellow;
+  }
+
+
+    .button {
+        font-weight: 300;
+        letter-spacing: 5px;
+    }
+
+    /*code for title of the game page and its styling*/
+    header a {
+    font-size: 100%; 
+    letter-spacing: 5px; 
+    text-shadow: 5px 5px 5px red;
+    }
+
+    #menu li {
+        letter-spacing: 5px;
+        display: inline;
+    }
+
+    #farleft {
+        height: 150px;
+        width: 100px;
+        margin-top: 5%;
+    }
+
+    #middleleft {
+        height: 150px;
+        width: 100px;
+    }
+    
+    #middleright {
+        height: 150px;
+        width: 100px;
+    }
+    
+    #farright {
+        height: 150px;
+        width: 100px;
+        
+    }
 }
 
 
