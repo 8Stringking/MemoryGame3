@@ -25,7 +25,7 @@ img {
 .enter-button {
     margin: 0;
     position: absolute;
-    top: 65%;
+    top: 85%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%); 
@@ -75,14 +75,31 @@ h1 {
     text-shadow: 5px 5px 5px greenyellow;
   }
 
+h3 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 150%;
+    font-weight: 300;
+    letter-spacing: 10px; 
+}
+
 .intro-text {
-    background-color: rgba(60, 60, 60, 0.4);
+    background-color: rgba(255, 0, 0, 0.2);
     padding: 5px;
     text-align: center;
     margin-top: 5%;
     margin-left: 15%;
     margin-right: 15%;
     font-size: 150%;
+}
+
+.instructions {
+    background-color: rgba(255, 0, 0, 0.4);
+    padding: 2px;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 100%;
 }
 
   /*background image for game screen*/
@@ -392,11 +409,19 @@ header a {
       /*styling for header on home page*/
     h1 {
         text-align: center;
-        font-size: 250%;
+        font-size: 150%;
         font-weight: 300;
         letter-spacing: 5px; 
         text-shadow: 5px 5px 5px greenyellow;
   }
+
+  h3 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 100%;
+    font-weight: 300;
+    letter-spacing: 10px; 
+}
 
   .intro-text {
     background-color: rgba(255, 0, 0, 0.3);
@@ -406,6 +431,16 @@ header a {
     margin-left: 5%;
     margin-right: 5%;
     font-size: 100%;
+}
+
+.instructions {
+    background-color: rgba(255, 0, 0, 0.4);
+    padding: 2px;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 80%;
+    color:Black;
 }
 
     .enter-button {
