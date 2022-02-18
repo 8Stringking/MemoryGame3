@@ -25,7 +25,7 @@ img {
 .enter-button {
     margin: 0;
     position: absolute;
-    top: 55%;
+    top: 65%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%); 
@@ -74,6 +74,16 @@ h1 {
     letter-spacing: 10px; 
     text-shadow: 5px 5px 5px greenyellow;
   }
+
+.intro-text {
+    background-color: rgba(60, 60, 60, 0.4);
+    padding: 5px;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 150%;
+}
 
   /*background image for game screen*/
 .clone-wars {
@@ -321,8 +331,44 @@ header a {
 
 
 
+
 /*For large to medium screens sizes from 600px wide and down */
 @media screen and (max-width: 600px) {
+}
+
+
+
+
+/*For large to medium screens sizes from 600px wide and down */
+@media screen and (max-width: 400px) {
+    .enter-battlefield {
+        background-image: url("../../assets/images/rexmobile.jpg");
+        max-height: auto;
+        height: auto;
+    }
+
+    img {
+        width: auto;
+        max-width: 100%;
+        height: auto;
+    }
+
+      /*styling for header on home page*/
+    h1 {
+        text-align: center;
+        font-size: 250%;
+        font-weight: 300;
+        letter-spacing: 5px; 
+        text-shadow: 5px 5px 5px greenyellow;
+  }
+
+    .button {
+        font-size: 80%;
+        font-weight: 300;
+        letter-spacing: 5px;
+        padding: 10px 15px;
+    }
+
 }
 
 
@@ -352,7 +398,18 @@ header a {
         text-shadow: 5px 5px 5px greenyellow;
   }
 
-    .button {
+  .intro-text {
+    background-color: rgba(255, 0, 0, 0.3);
+    padding: 5px;
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 100%;
+}
+
+    .enter-button {
+        margin-top: 10%;
         font-size: 80%;
         font-weight: 300;
         letter-spacing: 5px;
@@ -401,7 +458,6 @@ header a {
         height: 140px;
         width: 100px;
     }
-
     
     /*all styling for the switches section at the bottom of the screen*/
     #switches {
@@ -418,8 +474,7 @@ header a {
         font-size: 20px;
         height: 30px;
         width: 40px;
-    /*vertical-align: middle;*/
-    line-height: 20px;
+        line-height: 20px;
   }
 
 /*styling for the count text*/
@@ -470,8 +525,6 @@ header a {
     width: 100%;
     height: 20px;
     margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
-    border-radius: 2px;
 }
 
 .text-input2 {
@@ -480,8 +533,6 @@ header a {
     width: 100%;
     height: 50px;
     margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
-    border-radius: 2px;
 }
 
 .submit{
@@ -489,7 +540,7 @@ header a {
     border-radius: 2px;
     padding: 15px 15px 15px 15px;
     display: block;
-}
+  }
 
 }
 
