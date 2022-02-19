@@ -80,6 +80,20 @@ The target audience for the game is set for two age groups.
 ## 5.Wire Frames
 [Go to the top](#table-of-contents)
 
+Below is the original wireframes created for the game, and as you can see I was able to stick quite close to the original intended plans.
+
+![enter-page](assets/images/wireframes/wireframeenterpage.jpg)
+
+![game-page](assets/images/wireframes/wireframegamepage.jpg)
+
+![feedback-page](assets/images/wireframes/wireframefeedbackpage.jpg)
+
+## 6.Website Walkthrough
+[Go to the top](#table-of-contents)
+
+
+
+
 
 
 
