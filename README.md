@@ -8,33 +8,27 @@ The Overall aim of this project is to have built a functional memory game that i
 ## Live Site Images
 
 
-## Contents
+### Contents
 
-### 1.Purpose of The Game/ Value To User
+## 1.Purpose of The Game/ Value To User
 
-### 2.Target Audience
+## 2.Target Audience
 
+## 3.User Stories
 
-### 3.User Stories
+## 4.Web Design
 
-### 4.Web Design
+## 5.Wire Frames
 
-### 5.Wire Frames
+## 6.Website Walkthrough
 
-### 6.Website Walkthrough
+## 7. Methods for creating the site 
 
+## 8.Testing
 
-### 7. Methods for creating the site 
+## 9. Bugs
 
-
-### 8.Testing
-
-
-### 9. Bugs
-
-
-### 10. Deployment
-
+## 10. Deployment
 
 ## 1.Purpose of The Game/ Value To User
   [Go to the top](#table-of-contents)
@@ -82,7 +76,7 @@ The target audience for the game is set for two age groups.
 ## 5.Wire Frames
 [Go to the top](#table-of-contents)
 
-Below is the original wireframes created for the game, and as you can see I was able to stick quite close to the original intended plans.
+Below is the original wireframes created for the game, and as you can see I was able to stick quite close to the original intended plans, and i was pleased to be able to keep it simple for the user to be able to easily navigate the site and the game itself, but also injecting the star wars feel that was so important for this game.
 
 ![enter-page](assets/images/wireframes/wireframeenterpage.jpg)
 
@@ -102,6 +96,33 @@ Below is the original wireframes created for the game, and as you can see I was 
 ![forms-page](assets/images/website-walkthrough/formspage.jpg)
 
 - This relates to user story 9.
+
+## 7. Methods for creating the site 
+[Go to the top](#table-of-contents)
+
+
+
+
+## 8.Testing
+[Go to the top](#table-of-contents)
+
+
+## 9. Bugs
+[Go to the top](#table-of-contents)
+
+
+## 10. Deployment
+[Go to the top](#table-of-contents)
+
+The site was deployed to GitHub following these steps:
+
+* Create Github Account
+* Create a new repository
+* Click on settings on the navigation bar under the repository title
+* Select pages on the left menu bar
+* Click on the master branch and save
+* This has now created the link to your live website
+* Live website link - https://8stringking.github.io/MemoryGame3/
 
 
 
