@@ -54,3 +54,34 @@ The target audience for the game is set for two age groups.
 
 - 10 - 20 years old. Due to the popularity of Disney+ that now includes the back catalogue of star wars material, people of this age can conviently rewatch all the animated series along with the films and immerse themself in the story behind the clone troopers.
 
+## 3.User Stories
+[Go to the top](#table-of-contents)
+
+- I am presented with a random sequence of button clicks.
+
+- When I input a sequence of button clicks, I see this repeated with 1 more addition to the sequence.
+
+- That I hear a sound for each button and hear the correct sound when a button is clicked. And this sound is related to star wars.
+
+- If I input the incorrect button in the sequence, the game tells me so and repeats the pattern so I can try again
+
+- I can clearly see how many clicks are in any given sequence
+
+- I can play with accuracy mode engaged, which when a incorrect button is clicked the game notifies me and restarts from the beginning of the game
+
+- I am notified if I have Won the game
+
+## 4.Web Design
+[Go to the top](#table-of-contents)
+
+
+
+
+## 5.Wire Frames
+[Go to the top](#table-of-contents)
+
+
+
+
+
+
