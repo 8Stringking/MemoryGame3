@@ -100,8 +100,18 @@ Below is the original wireframes created for the game, and as you can see I was 
 ## 7. Methods for creating the site 
 [Go to the top](#table-of-contents)
 
-
-
+* [HTML5](https://en.wikipedia.org/wiki/HTML) (was used for structuring and presenting content of the website)
+* [CSS](https://en.wikipedia.org/wiki/CSS) (used for the styling of the content)
+* [Javascript](https://en.wikipedia.org/wiki/JavaScript) (used for the game programming)
+* [Google Fonts](https://fonts.google.com/) (used for all the font styling within the project, fonts used were Cinzel, and Cinzel decorative with serif used for a backup)
+* [Bootstrap](https://www.bootstrapcdn.com/) (used for the responsive code in the header for multiple devices)
+* [Chrome](https://www.google.com/intl/en_uk/chrome/) (used to debug and test the source code using HTML5 and to test site responsiveness)
+* [GitHub](https://github.com/) (used to create the repository and store the projects code after pushed from Git)
+* [Gitpod](https://www.gitpod.io/) (used for the editing of code within the project for the site)
+* [W3C Markup](https://validator.w3.org/) (used for validating the html5 code)
+* [Jigsaw Validator](https://jigsaw.w3.org/css-validator/) (used for validating the CSS code)
+js validator 
+am i responsive
 
 ## 8.Testing
 [Go to the top](#table-of-contents)
