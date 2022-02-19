@@ -11,7 +11,6 @@ body {
 /*background image for the enter page and its styling*/
 .enter-battlefield {
     background-image: url("../../assets/images/enter-screenhd.jpg");
-    background-repeat: no-repeat;
     background-size: cover;
 }
 
@@ -358,10 +357,11 @@ header a {
 
 /*For large to medium screens sizes from 600px wide and down */
 @media screen and (max-width: 400px) {
+    /*for the home screen background image which changes on mobile devices*/
     .enter-battlefield {
-        background-image: url("../../assets/images/rexmobile.jpg");
+        background-image: url("../../assets/images/rexmobile600.jpg");
+        background-image: cover;
         max-height: auto;
-        height: auto;
     }
 
     img {
@@ -378,13 +378,43 @@ header a {
         letter-spacing: 5px; 
         text-shadow: 5px 5px 5px greenyellow;
   }
-
-    .button {
+/*for the instruction title on enter page*/
+  h3 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 150%;
+    font-weight: 300;
+    letter-spacing: 10px; 
+}
+/*styling for the introduction to the game on the enter page*/
+  .intro-text {
+    background-color: rgba(255, 0, 0, 0.3);
+    padding: 5px;
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 150%;
+}
+/*styling for the instruction section on the enter page*/
+.instructions {
+    background-color: rgba(255, 0, 0, 0.4);
+    padding: 2px;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 120%;
+    color:Black;
+}
+/*for the enter button to enter the game page*/
+    .enter-button {
+        margin-top: 10%;
         font-size: 80%;
         font-weight: 300;
         letter-spacing: 5px;
         padding: 10px 15px;
     }
+
 
 }
 
@@ -396,8 +426,8 @@ header a {
   /*for the home screen background image which changes on mobile devices*/
     .enter-battlefield {
         background-image: url("../../assets/images/rexmobile.jpg");
+        background-image: cover;
         max-height: auto;
-        height: auto;
     }
 
     img {
@@ -414,7 +444,7 @@ header a {
         letter-spacing: 5px; 
         text-shadow: 5px 5px 5px greenyellow;
   }
-
+/*for the instruction title on enter page*/
   h3 {
     text-align: center;
     text-decoration: underline;
@@ -422,7 +452,7 @@ header a {
     font-weight: 300;
     letter-spacing: 10px; 
 }
-
+/*styling for the introduction to the game on the enter page*/
   .intro-text {
     background-color: rgba(255, 0, 0, 0.3);
     padding: 5px;
@@ -432,7 +462,7 @@ header a {
     margin-right: 5%;
     font-size: 100%;
 }
-
+/*styling for the instruction section on the enter page*/
 .instructions {
     background-color: rgba(255, 0, 0, 0.4);
     padding: 2px;
@@ -442,7 +472,7 @@ header a {
     font-size: 80%;
     color:Black;
 }
-
+/*for the enter button to enter the game page*/
     .enter-button {
         margin-top: 10%;
         font-size: 80%;
@@ -465,6 +495,7 @@ header a {
         text-shadow: 5px 5px 5px red;
     }
 
+    /*for the nav bar on the game page and feedback form page*/
     #menu li {
         letter-spacing: 5px;
         display: inline;
@@ -537,12 +568,14 @@ header a {
     max-width: 100%;
 }
 
+/*title for feedback form page on smaller devices*/
 .feedback-title {
     text-align: center;
     font-size: 100%;
     font-weight: 300;
 }
 
+/*this is to control the dimensions of the feedback form*/
 .form-section {
     margin-top: 8%;
     color: #fff;
@@ -553,7 +586,7 @@ header a {
     text-align: center;
     font-size: 80%;
 }
-
+/*for the first box of the feedback form*/
 .text-input{
     background: transparent;
     color: #fafafa;
@@ -562,6 +595,7 @@ header a {
     margin: 5px 0 20px 0;
 }
 
+/*for the input boxes below the date of the feedback form*/
 .text-input2 {
     background: transparent;
     color: #fafafa;
@@ -570,6 +604,7 @@ header a {
     margin: 5px 0 20px 0;
 }
 
+/*for the submit button at the bottom of the feedback page*/
 .submit{
     margin-top: 1%;
     border-radius: 2px;
