@@ -33,9 +33,7 @@ The Overall aim of this project is to have built a functional memory game that i
 ### 9. Bugs
 
 
-### 10. Future plans and goals for the website
-
-### 11. Deployment
+### 10. Deployment
 
 
 ## 1.Purpose of The Game/ Value To User
@@ -57,19 +55,23 @@ The target audience for the game is set for two age groups.
 ## 3.User Stories
 [Go to the top](#table-of-contents)
 
-- I am presented with a random sequence of button clicks.
+1. - I am presented with an enter screen with instructions to the game.
 
-- When I input a sequence of button clicks, I see this repeated with 1 more addition to the sequence.
+2. - I am presented with a random sequence of panel clicks.
 
-- That I hear a sound for each button and hear the correct sound when a button is clicked. And this sound is related to star wars.
+3. - When I input a sequence of panel clicks, I see this repeated with 1 more addition to the sequence.
 
-- If I input the incorrect button in the sequence, the game tells me so and repeats the pattern so I can try again
+4. - That I hear a sound for each panel and hear the correct sound when a button is clicked. And this sound is related to star wars.
 
-- I can clearly see how many clicks are in any given sequence
+5. - If I input the incorrect panel in the sequence, the game tells me so and repeats the pattern so I can try again
 
-- I can play with accuracy mode engaged, which when a incorrect button is clicked the game notifies me and restarts from the beginning of the game
+6. - I can clearly see how many clicks are in any given sequence
 
-- I am notified if I have Won the game
+7. - I can play with accuracy mode engaged, which when a incorrect panel is clicked the game notifies me and restarts from the beginning of the game
+
+8. - I am notified if I have Won the game
+
+9. - I can give myfeedback/comments on what i think of the game
 
 ## 4.Web Design
 [Go to the top](#table-of-contents)
@@ -88,9 +90,18 @@ Below is the original wireframes created for the game, and as you can see I was 
 
 ![feedback-page](assets/images/wireframes/wireframefeedbackpage.jpg)
 
-## 6.Website Walkthrough
+## 6.Website Walkthrough 
 [Go to the top](#table-of-contents)
 
+![enter-page](assets/images/website-walkthrough/enterpage.jpg)
+- This relates to user story 1.
+
+![game-page](assets/images/website-walkthrough/gamepage.jpg)
+- This relates to user story 2 - 8, as they are to do with gameplay. Also if incorrect sequence is inputted by the user a alert box will pop up telling the user, also if the user wins a alert box will tell the user this as well.
+
+![forms-page](assets/images/website-walkthrough/formspage.jpg)
+
+- This relates to user story 9.
 
 
 
