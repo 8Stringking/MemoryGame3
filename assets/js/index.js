@@ -53,13 +53,19 @@ powerButton.addEventListener("click", (event) => {
     clearInterval(intervalId);
   }
 });
-//this activates the game if/when the start button has been 'clicked':
+/*
+this activates the game if/when the start
+button has been 'clicked'
+*/
 startButton.addEventListener("click", (event) => {
   if (power || win) {
     play();
   }
 });
-//this function included variables so that the game resets after use:
+/*
+this function included variables so that
+the game resets after use
+*/
 function play() {
   win = false;
   order = [];
@@ -69,7 +75,7 @@ function play() {
   turn = 1;
   turnCounter.innerHTML = 1;
   good = true;
-  for (var i = 0; i < 20; i++) {
+  for (let i = 0; i < 20; i++) {
     //generating numbers for the pattern:
     order.push(Math.floor(Math.random() * 4) + 1);
   }
@@ -80,11 +86,13 @@ function play() {
 
 function gameTurn() {
   power = false;
-  /*stops user from being able to click buttons
-   while the computers turn is flashing:
+  /*
+  stops user from being able to click buttons
+  while the computers turn is flashing:
   */
-  /*if the amount of flashes equals the turn counter
-    this means the computers turn is over:
+  /*
+  if the amount of flashes equals the turn counter
+  this means the computers turn is over:
   */
   if (flash == turn) {
     clearInterval(intervalId);
@@ -104,9 +112,11 @@ function gameTurn() {
   }
 }
 /*
-this function is for the noise to be heard in the game
-and changing the css using .style to make the panels 
-change color when they flash for each of the panels
+this function is for the noise to
+be heard in the game and changing
+the css using .style to make the
+panels change color when they flash
+for each of the panels
 */
 function one() {
   if (noise) {
@@ -169,7 +179,7 @@ farLeft.addEventListener("click", (event) => {
       }, 300);
     }
   }
-})
+});
 middleLeft.addEventListener("click", (event) => {
   if (power) {
     playerOrder.push(2);
@@ -181,7 +191,7 @@ middleLeft.addEventListener("click", (event) => {
       }, 300);
     }
   }
-})
+});
 middleRight.addEventListener("click", (event) => {
   if (power) {
     playerOrder.push(3);
@@ -193,7 +203,7 @@ middleRight.addEventListener("click", (event) => {
       }, 300);
     }
   }
-})
+});
 farRight.addEventListener("click", (event) => {
   if (power) {
     playerOrder.push(4);
@@ -205,11 +215,13 @@ farRight.addEventListener("click", (event) => {
       }, 300);
     }
   }
-})
+});
 /*
-setting the amount of rounds to win and setting 
-parameters for player loosing and to get the game
-to restart flashing if the player hits an incorrect panel
+setting the amount of rounds to
+win and setting parameters for
+player loosing and to get the game
+to restart flashing if the player
+hits an incorrect panel
 */
 function check() {
   if (playerOrder[playerOrder.length - 1] !== order[playerOrder.length - 1])
