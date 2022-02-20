@@ -233,7 +233,29 @@ header a {
   }
 
 /*link to feedback form page*/
-  
+.page-link2 {
+    position: absolute;
+    top: 85%;
+    text-align: right;
+    margin-left: 60%;
+    font-size: 130%;
+}
+
+/*styling for enter the clone wars link*/
+.page-link2 {
+    font-family: 'Orbitron', sans-serif;
+    font-weight:400;
+    color:#FFFFFF;
+    letter-spacing: 10px;
+    display:inline-block;
+    text-shadow: 3px 3px 3px blue;
+    text-transform:uppercase;
+    text-align:center;    
+}
+
+.page-link2:hover{
+    color: yellow;
+}
 
 .form-background {
     background-image: url("../../assets/images/captain-rex.jpg");
@@ -407,7 +429,7 @@ header a {
 /*styling for the game page image*/
 .clone-wars {
     background-size: cover;
-    width: auto;
+    background-repeat: repeat;
     max-width: 100%;
     height: auto;
 }
@@ -474,13 +496,29 @@ font-size: 120%;
 margin-left: 40%;
 }
 
-.feedback {
-    float: right;
-    margin-right: 5%;
-    margin-top: 25%;
-    font-weight: thick;
+/*link to feedback form page*/
+.page-link2 {
+    position: absolute;
+    top: 90%;
+    margin-left: 5%;
     font-size: 150%;
 }
+
+/*styling for enter the clone wars link*/
+.page-link2 {
+    font-family: 'Orbitron', sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    letter-spacing: 5px;
+    display:inline-block;
+    text-shadow: 3px 3px 3px blue;
+    text-transform:uppercase;    
+}
+
+.page-link2:hover{
+    color: yellow;
+}
+
 
 /*styling for form page on smaller devices*/
 .form-background {
@@ -596,20 +634,12 @@ margin-left: 40%;
     font-size: 80%;
     color:Black;
 }
-/*for the enter button to enter the game page*/
-    .enter-button {
-        margin-top: 10%;
-        font-size: 80%;
-        font-weight: 300;
-        letter-spacing: 5px;
-        padding: 10px 15px;
-    }
 
     /*styling for the game page image*/
     .clone-wars {
-        width: auto;
         max-width: 100%;
         height: auto;
+        background-repeat: repeat;
     }
 
     /*code for title of the game page and its styling*/
@@ -652,7 +682,7 @@ margin-left: 40%;
     /*all styling for the switches section at the bottom of the screen*/
     #switches {
         text-align: center;
-        margin-top: 1%;
+        margin-top:3%;
         font-size: 80%;
 }
 
@@ -674,7 +704,29 @@ margin-left: 40%;
     margin-left: 43%;
   }
 
-
+  /*link to feedback form page*/
+  .page-link2 {
+      position: absolute;
+      top: 90%;
+      margin-left: 57%;
+      font-size: 80%;
+  }
+  
+  /*styling for enter the clone wars link*/
+  .page-link2 {
+      font-family: 'Orbitron', sans-serif;
+      font-weight:300;
+      color:#FFFFFF;
+      letter-spacing: 5px;
+      display:inline-block;
+      text-shadow: 3px 3px 3px blue;
+      text-transform:uppercase;    
+  }
+  
+  .page-link2:hover{
+      color: yellow;
+  }
+  
 
 /*styling for form page on smaller devices*/
 .form-background {
