@@ -8,27 +8,27 @@ The Overall aim of this project is to have built a functional memory game that i
 ## Live Site Images
 
 
-### Contents
+## Contents
 
-## 1.Purpose of The Game/ Value To User
+### 1.Purpose of The Game/ Value To User
 
-## 2.Target Audience
+### 2.Target Audience
 
-## 3.User Stories
+### 3.User Stories
 
-## 4.Web Design
+### 4.Web Design
 
-## 5.Wire Frames
+### 5.Wire Frames
 
-## 6.Website Walkthrough
+### 6.Website Walkthrough
 
-## 7. Methods for creating the site 
+### 7. Methods for creating the site 
 
-## 8.Testing
+### 8.Testing
 
-## 9. Bugs
+### 9. Bugs
 
-## 10. Deployment
+### 10. Deployment
 
 ## 1.Purpose of The Game/ Value To User
   [Go to the top](#table-of-contents)
@@ -87,10 +87,10 @@ Below is the original wireframes created for the game, and as you can see I was 
 ## 6.Website Walkthrough 
 [Go to the top](#table-of-contents)
 
-![enter-page](assets/images/website-walkthrough/enterpage.jpg)
+![enter-page](assets/images/website-walkthrough/enterpage2.jpg)
 - This relates to user story 1.
 
-![game-page](assets/images/website-walkthrough/gamepage.jpg)
+![game-page](assets/images/website-walkthrough/gamepage2.jpg)
 - This relates to user story 2 - 8, as they are to do with gameplay. Also if incorrect sequence is inputted by the user a alert box will pop up telling the user, also if the user wins a alert box will tell the user this as well.
 
 ![forms-page](assets/images/website-walkthrough/formspage.jpg)
@@ -110,6 +110,7 @@ Below is the original wireframes created for the game, and as you can see I was 
 * [Gitpod](https://www.gitpod.io/) (used for the editing of code within the project for the site)
 * [W3C Markup](https://validator.w3.org/) (used for validating the html5 code)
 * [Jigsaw Validator](https://jigsaw.w3.org/css-validator/) (used for validating the CSS code)
+* [Reaper DAW](https://www.reaper.fm/) (used for making the blaster sounds for the game)
 js validator 
 am i responsive
 
