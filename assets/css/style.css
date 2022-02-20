@@ -378,14 +378,31 @@ header a {
     font-size: 100%;
     color:Black;
 }
-/*for the enter button to enter the game page*/
-    .enter-button {
-        margin-top: 10%;
-        font-size: 80%;
-        font-weight: 300;
-        letter-spacing: 5px;
-        padding: 10px 15px;
-    }
+
+  /*for positioning of game link on the enter page*/
+  .page-link {
+    position: absolute;
+    top: 80%;
+    margin-left: 5%;
+    font-size: 200%;
+    
+}
+
+/*styling for enter the clone wars link*/
+.page-link {
+    font-family: 'Orbitron', sans-serif;
+    font-weight:400;
+    color:#FFFFFF;
+    letter-spacing: 10px;
+    display:inline-block;
+    text-shadow: 3px 3px 3px red;
+    text-transform:uppercase;
+    text-align:center;    
+}
+
+.page-link:hover{
+    color: blue;
+}
 
 /*styling for the game page image*/
 .clone-wars {
@@ -525,6 +542,32 @@ margin-left: 40%;
         letter-spacing: 5px; 
         text-shadow: 5px 5px 5px greenyellow;
   }
+
+  /*for positioning of game link on the enter page*/
+.page-link {
+    position: absolute;
+    top: 85%;
+    margin-left: 5%;
+    font-size: 100%;
+    
+}
+
+/*styling for enter the clone wars link*/
+.page-link {
+    font-family: 'Orbitron', sans-serif;
+    font-weight:400;
+    color:#FFFFFF;
+    letter-spacing: 10px;
+    display:inline-block;
+    text-shadow: 3px 3px 3px red;
+    text-transform:uppercase;
+    text-align:center;    
+}
+
+.page-link:hover{
+    color: blue;
+}
+
 /*for the instruction title on enter page*/
   h3 {
     text-align: center;
