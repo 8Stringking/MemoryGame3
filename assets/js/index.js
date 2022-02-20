@@ -1,5 +1,3 @@
-
-
 //variable to keep track of the order of the lights:
 let order = [];
 //the order that the player is pressing the lights in:
@@ -22,50 +20,45 @@ let noise = true;
 let power = false;
 //tells us if the player has won the game or not:
 let win;
-
 //the digital display of turns in the game w/ css selector #turn:
 const turnCounter = document.querySelector("#turn");
-
 //variables for the 4 panels in the game:
 const farLeft = document.querySelector("#farleft");
 const middleLeft = document.querySelector("#middleleft");
 const middleRight = document.querySelector("#middleright");
 const farRight = document.querySelector("#farright");
-
 //variables for the switches in the game:
 const accuracyButton = document.querySelector("#accuracy");
 const powerButton = document.querySelector("#power");
 const startButton = document.querySelector("#start");
-
 //for checking weather the strict button has been activated or not:
-accuracyButton.addEventListener('click', (event) => {
+accuracyButton.addEventListener("click", (event) => {
     if(accuracyButton.checked == true){
       accuracy = true;
     } else {
       accuracy = false;
     }
 });
-
 //what to do once the power button has been engaged:
-powerButton.addEventListener('click', (event) => {
+powerButton.addEventListener("click", (event) => {
     if(powerButton.checked == true){
         power = true;
-        turnCounter.innerHTML = "-"; //to create the lines in counter to show power button has been activated:
+        //to create the lines in counter to show power button has been activated:
+        turnCounter.innerHTML = "-"; 
     } else {
         power = false;
         turnCounter.innerHTML = "";
         clearColor();
-        clearInterval(intervalId); // stops the game from flashing after the game has ended:
+        // stops the game from flashing after the game has ended:
+        clearInterval(intervalId); 
     }
 });
-
 //this activates the game if/when the start button has been 'clicked':
-startButton.addEventListener('click', (event) => {
+startButton.addEventListener("click", (event) => {
     if (power || win) {
         play();
     }
 });
-
 //this function included variables so that the game resets after use:
 function play() {
     win = false;
@@ -77,18 +70,21 @@ function play() {
     turnCounter.innerHTML = 1;
     good = true;
     for (var i = 0; i < 20; i++) {
-      order.push(Math.floor(Math.random() * 4) + 1); //generating numbers for the pattern:
+      //generating numbers for the pattern:
+      order.push(Math.floor(Math.random() * 4) + 1); 
     }
     compTurn = true;
-
     //this sets the time between flashes for the game:
     intervalId = setInterval(gameTurn, 800);
   }
-
   function gameTurn() {
-    power = false; //stops user from being able to click buttons while the computers turn is flashing:
-  
-    //if the amount of flashes equals the turn counter, this means the computers turn is over:
+    power = false; 
+    /*stops user from being able to click buttons
+     while the computers turn is flashing:
+    */
+    /*if the amount of flashes equals the turn counter
+      this means the computers turn is over:
+    */
     if (flash == turn) {
       clearInterval(intervalId);
       compTurn = false;
@@ -106,10 +102,10 @@ function play() {
       }, 200);
     }
   }
-
   /*
-this function is for the noise to be heard in the game and changing the css  
-using .style to make the panels change color when they flash for each of the panels
+this function is for the noise to be heard in the game
+and changing the css using .style to make the panels 
+change color when they flash for each of the panels
 */
 function one() {
     if (noise) {
@@ -119,7 +115,6 @@ function one() {
     noise = true;
     farLeft.style.backgroundColor = "lightgreen";
   }
-
   function two() {
     if (noise) {
       let audio = document.getElementById("clip2");
@@ -128,7 +123,6 @@ function one() {
     noise = true;
     middleLeft.style.backgroundColor = "tomato";
   }
-  
   function three() {
     if (noise) {
       let audio = document.getElementById("clip3");
@@ -137,7 +131,6 @@ function one() {
     noise = true;
     middleRight.style.backgroundColor = "yellow";
   }
-  
   function four() {
     if (noise) {
       let audio = document.getElementById("clip4");
@@ -146,7 +139,6 @@ function one() {
     noise = true;
   farRight.style.backgroundColor = "lightskyblue";
 }
-
 //this is to revert panels to orignal colors after flashing:
 function clearColor() {
     farLeft.style.backgroundColor = "darkgreen";
@@ -154,7 +146,6 @@ function clearColor() {
     middleRight.style.backgroundColor = "goldenrod";
     farRight.style.backgroundColor = "darkblue";
   }
-
   //this is what the colors will flash to:
   function flashColor() {
     farLeft.style.backgroundColor = "lightgreen";
@@ -162,9 +153,8 @@ function clearColor() {
     middleRight.style.backgroundColor = "yellow";
     farRight.style.backgroundColor = "lightskyblue";
   }
-
-
-farLeft.addEventListener('click', (event) => {
+  
+farLeft.addEventListener("click", (event) => {
     if (power) {
       playerOrder.push(1);
       check();
@@ -176,8 +166,7 @@ farLeft.addEventListener('click', (event) => {
       }
     }
   })
-  
-  middleLeft.addEventListener('click', (event) => {
+  middleLeft.addEventListener("click", (event) => {
     if (power) {
       playerOrder.push(2);
       check();
@@ -189,8 +178,7 @@ farLeft.addEventListener('click', (event) => {
       }
     }
   })
-  
-  middleRight.addEventListener('click', (event) => {
+  middleRight.addEventListener("click", (event) => {
     if (power) {
       playerOrder.push(3);
       check();
@@ -202,8 +190,7 @@ farLeft.addEventListener('click', (event) => {
       }
     }
   })
-  
-  farRight.addEventListener('click', (event) => {
+  farRight.addEventListener("click", (event) => {
     if (power) {
       playerOrder.push(4);
       check();
@@ -215,19 +202,17 @@ farLeft.addEventListener('click', (event) => {
       }
     }
   })
-
 /*
-setting the amount of rounds to win and setting parameters for player loosing
-and to get the game to restart flashing if the player hits an incorrect panel
+setting the amount of rounds to win and setting 
+parameters for player loosing and to get the game
+to restart flashing if the player hits an incorrect panel
 */
 function check() {
     if (playerOrder[playerOrder.length - 1] !== order[playerOrder.length - 1])
       good = false;
-  
-    if (playerOrder.length == 3 && good) {
+    if (playerOrder.length == 10 && good) {
       winGame();
     }
-  
     if (good == false) {
       alert("The greatest teacher, failure is, better luck next time soldier!");
       flashColor();
@@ -235,7 +220,6 @@ function check() {
       setTimeout(() => {
         turnCounter.innerHTML = turn;
         clearColor();
-  
         if (accuracy) {
           play();
         } else {
@@ -246,10 +230,8 @@ function check() {
           intervalId = setInterval(gameTurn, 800);
         }
       }, 800);
-  
       noise = false;
     }
-  
     if (turn == playerOrder.length && good && !win) {
       turn++;
       playerOrder = [];
@@ -258,16 +240,14 @@ function check() {
       turnCounter.innerHTML = turn;
       intervalId = setInterval(gameTurn, 800);
     }
-  
   }
-
 //for when the player wins the game:
 function winGame() {
     flashColor();
     turnCounter.innerHTML = "HIT!";
     power = false;
     win = true;
-    alert("Well done soldier, you've hit all the targets! Welcome to the 501st!");
+    alert("Well done soldier, you've hit all the targets!Welcome to the 501st!");
   }
   
   
