@@ -70,8 +70,23 @@ The target audience for the game is set for two age groups.
 ## 4.Web Design
 [Go to the top](#table-of-contents)
 
+This website has been designed with the following main principles:
+- Simple and easy to navigate
+- Ensuring no contrast issues between background and foreground content 
+- Putting stunning Star Wars imagery of the clone troopers at the forefront of the design
+- Including as much of a Star Wars feel as possible
+- To create a game that genuinely tests mental ability
+- To evoke a positive response from the User
 
+Keeping the game quite minimilistic was key in my opinion, so the user could soley focus on the type of escapism that Star Wars is known for. A key aspect of this is the blaster sounds for the game, which i personally edited using music production software, pitch shifting and mastering plugins to achieve the sound. The original sound was the exact sound used for the Star Wars films 'Attack of the Clones' and 'Revenge Of The Sith'. Along with using unique imagery of the clone troopers I believe this game offers something that no other Star Wars memory games does (I have yet to come across one that does).
 
+Within the game there are subtle hints to the Star Wars films that Star Wars fans will recognise. This comes in the form of the introduction for the game on the Enter page along with the instructions that are written as if it came out of the mouth of a clone commander or even Captain Rex himself.
+
+The accuracy button although provides a good function, is also reference to the humour of storm troopers not being very accurate with their weapons. Although this game focus on the clones that preceeded them I thought it added a sense of humour to the game adding in evoking a positive emotional response from the user.
+
+The alert messages also are written in classic clone commander fashion, and even quoted a famous quote from Grand Master Yoda if the user fails.
+
+In conclusion with ensuring there is no issues with background and foreground content, I believe i have met the ideas and targets for this site in creating a site where mental ability can be functionally tested while immersing the user within the star wars universe!
 
 ## 5.Wire Frames
 [Go to the top](#table-of-contents)
@@ -103,15 +118,16 @@ Below is the original wireframes created for the game, and as you can see I was 
 * [HTML5](https://en.wikipedia.org/wiki/HTML) (was used for structuring and presenting content of the website)
 * [CSS](https://en.wikipedia.org/wiki/CSS) (used for the styling of the content)
 * [Javascript](https://en.wikipedia.org/wiki/JavaScript) (used for the game programming)
-* [Google Fonts](https://fonts.google.com/) (used for all the font styling within the project, fonts used were Cinzel, and Cinzel decorative with serif used for a backup)
+* [Google Fonts](https://fonts.google.com/) (used for all the font styling within the project)
 * [Bootstrap](https://www.bootstrapcdn.com/) (used for the responsive code in the header for multiple devices)
-* [Chrome](https://www.google.com/intl/en_uk/chrome/) (used to debug and test the source code using HTML5 and to test site responsiveness)
+* [Chrome](https://www.google.com/intl/en_uk/chrome/) (used to debug and test the source code and to test site responsiveness)
 * [GitHub](https://github.com/) (used to create the repository and store the projects code after pushed from Git)
 * [Gitpod](https://www.gitpod.io/) (used for the editing of code within the project for the site)
 * [W3C Markup](https://validator.w3.org/) (used for validating the html5 code)
 * [Jigsaw Validator](https://jigsaw.w3.org/css-validator/) (used for validating the CSS code)
 * [Reaper DAW](https://www.reaper.fm/) (used for making the blaster sounds for the game)
-js validator 
+js lint
+js hint 
 am i responsive
 
 ## 8.Testing
@@ -160,6 +176,7 @@ Game User Story 5 | If the user inputs the incorrect panel in the sequence, the 
 Game User Story 6 | The user can clearly see how many clicks are in any given sequence? | Pass
 Game User Story 7 | The user can play with accuracy button engaged, which when a incorrect panel is clicked the game notifies the user and restarts from the beginning of the game? | Pass
 Game User Story 8 | Is the user notified if the user has Won the game? | Pass
+Game | Does an alert box pop up to tell the user if the user has won/lost the game? | Pass
 Game User Story 9 | I can give myfeedback/comments on what i think of the game? | Pass
 Booking Form | Does the form successfully submit data? Does the calendar work when icon is clicked | Pass
 
