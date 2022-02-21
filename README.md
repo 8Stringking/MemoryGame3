@@ -75,7 +75,7 @@ This website has been designed with the following main principles:
 - Ensuring no contrast issues between background and foreground content 
 - Putting stunning Star Wars imagery of the clone troopers at the forefront of the design
 - Including as much of a Star Wars feel as possible
-- To create a game that genuinely tests mental ability
+- To create a game that genuinely tests mental ability which is fun
 - To evoke a positive response from the User
 
 Keeping the game quite minimilistic was key in my opinion, so the user could soley focus on the type of escapism that Star Wars is known for. A key aspect of this is the blaster sounds for the game, which i personally edited using music production software, pitch shifting and mastering plugins to achieve the sound. The original sound was the exact sound used for the Star Wars films 'Attack of the Clones' and 'Revenge Of The Sith'. Along with using unique imagery of the clone troopers I believe this game offers something that no other Star Wars memory games does (I have yet to come across one that does).
