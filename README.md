@@ -55,7 +55,7 @@ The target audience for the game is set for two age groups.
 
 3. - When I input a sequence of panel clicks, I see this repeated with 1 more addition to the sequence.
 
-4. - That I hear a sound for each panel and hear the correct sound when a button is clicked. And this sound is related to star wars.
+4. - That I hear a sound for each panel and hear the correct sound when a panel is clicked. And this sound is related to star wars.
 
 5. - If I input the incorrect panel in the sequence, the game tells me so and repeats the pattern so I can try again
 
@@ -65,7 +65,7 @@ The target audience for the game is set for two age groups.
 
 8. - I am notified if I have Won the game
 
-9. - I can give myfeedback/comments on what i think of the game
+9. - I can give myfeedback/comments on what I think of the game
 
 ## 4.Web Design
 [Go to the top](#table-of-contents)
@@ -117,6 +117,51 @@ am i responsive
 ## 8.Testing
 [Go to the top](#table-of-contents)
 
+### HTML Validation
+
+- Below is the validation for the Enter page, No errors found
+![enter-page-validation](assets/images/code-validation-images/enterpagevalidation.jpg)
+
+- Below is the validation for the Game page, No errors found
+![game-page-validation](assets/images/code-validation-images/gamepagevalidation.jpg)
+
+- Below is the validation for the Feedback Form page, No errors found
+![form-page-validation](assets/images/code-validation-images/formspagevalidation.jpg)
+
+### CSS Validation
+
+
+### Javascript Validation
+
+
+## Responsiveness Testing
+
+I have carried out manual testing on the following devices to test responsiveness, all links worked correctly, and on all devices the game functions as intended. The devices were tested on the following:
+
+* iphone 5
+* iphone 6
+* iphone 7
+* iphone 8
+* Google Pixel 5
+* Ipad/Ipad Pro
+* Tablets
+* Laptops
+
+Test            | Outcome                          | Result
+--------------- | -------------------------------- | ------------
+Navigation Bar  | Does the nav bar navigate to each page?, and indicates with an underline what page you are on?, does it change color when hovering? | Pass (feedback form link also functions the same Pass)
+Buttons | Does all buttons function as intended in game consistantly? Does the power button turn on the game? Does Accuracy button restart the game when a incorrect panel is clicked? | Pass
+Links | Does every link take you to the intended destination? | Pass
+Game User Story 1 | Is the user presented with an enter screen with instructions to the game | Pass
+Game User Story 2 | Is the user presented with a random set of panel flashes? | Pass
+Game User Story 3 | When the user inputs a sequence of panel clicks, does the user see this repeated with 1 more addition to the sequence? | Pass
+Game User Story 4 | Does the user hear a sound for each panel and hear the correct sound when a panel is clicked. And this sound is related to star wars? | Pass
+Game User Story 5 | If the user inputs the incorrect panel in the sequence, the game tells the user so and repeats the pattern so the user can try again? | Pass
+Game User Story 6 | The user can clearly see how many clicks are in any given sequence? | Pass
+Game User Story 7 | The user can play with accuracy button engaged, which when a incorrect panel is clicked the game notifies the user and restarts from the beginning of the game? | Pass
+Game User Story 8 | Is the user notified if the user has Won the game? | Pass
+Game User Story 9 | I can give myfeedback/comments on what i think of the game? | Pass
+Booking Form | Does the form successfully submit data? Does the calendar work when icon is clicked | Pass
 
 ## 9. Bugs
 [Go to the top](#table-of-contents)

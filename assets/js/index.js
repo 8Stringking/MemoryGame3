@@ -75,7 +75,7 @@ function play() {
   turn = 1;
   turnCounter.innerHTML = 1;
   good = true;
-  for (var i = 0; i < 20; i+=1) {
+  for (let i = 0; i < 20; i+=1) {
     //generating numbers for the pattern:
     order.push(Math.floor(Math.random() * 4) + 1);
   }
