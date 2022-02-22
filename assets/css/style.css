@@ -333,21 +333,183 @@ header a {
 }
 
 
+/*For large to medium screens sizes from 768px wide and down (tablets) */
+@media screen and (max-width: 768px) {
+    /*for the home screen background image which changes on mobile devices*/
+    .enter-battlefield {
+        background-image: url("../../assets/images/rex-alert-pic1200.jpg");
+        background-image: cover;
+        max-height: auto;
+    }
 
+    img {
+        width: auto;
+        max-width: 100%;
+        height: auto;
+    }
 
-/* For large to medium screens sizes from 950px wide and down */
-@media screen and (max-width: 950px) {
+      /*styling for header on home page*/
+    h1 {
+        text-align: center;
+        font-size: 250%;
+        font-weight: 300;
+        letter-spacing: 5px; 
+        text-shadow: 5px 5px 5px greenyellow;
+  }
+/*for the instruction title on enter page*/
+  h3 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 200%;
+    font-weight: 300;
+    letter-spacing: 10px; 
+}
+/*styling for the introduction to the game on the enter page*/
+  .intro-text {
+    background-color: rgba(255, 0, 0, 0.3);
+    padding: 5px;
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 150%;
+}
+/*styling for the instruction section on the enter page*/
+.instructions {
+    background-color: rgba(255, 0, 0, 0.4);
+    padding: 2px;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 120%;
+    color:white;
+}
+
+  /*for positioning of game link on the enter page*/
+  .page-link {
+    position: absolute;
+    top: 90%;
+    margin-left: 12%;
+    font-size: 150%;
+    
+}
+
+/*styling for enter the clone wars link*/
+.page-link {
+    font-family: 'Orbitron', sans-serif;
+    font-weight:400;
+    color:#FFFFFF;
+    letter-spacing: 10px;
+    display:inline-block;
+    text-shadow: 3px 3px 3px red;
+    text-transform:uppercase;
+    text-align:center;    
+}
+
+.page-link:hover{
+    color: blue;
+}
+
+/*styling for the game page image*/
+.clone-wars {
+    background-size: cover;
+    background-repeat: repeat;
+    max-width: 100%;
+    height: auto;
+}
+
+/*code for title of the game page and its styling*/
+header a {
+    font-size: 120%; 
+    letter-spacing: 5px; 
+    text-shadow: 5px 5px 5px red;
+}
+
+/*for the nav bar on the game page and feedback form page*/
+#menu li {
+    letter-spacing: 5px;
+    display: inline;
 }
 
 
-
-
-/*For large to medium screens sizes from 600px wide and down */
-@media screen and (max-width: 600px) {
+/*styling for the 4 panels reduced size*/
+#farleft {
+    display: inline-block;
+    margin-top: 1%;
+    height: 200px;
+    width: 200px;
 }
 
+#middleleft {
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    margin-top: 1%;
+}
 
+#middleright {
+    display: inline-block;
+    height: 200px;
+    width: 200px;
 
+}
+
+#farright {
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+}
+
+/*all styling for the switches section at the bottom of the screen*/
+#switches {
+    margin-top: 2%;
+    font-size: 100%;
+}
+
+/*this is for the turn counter in the game*/
+#turn {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    margin-left: 47%;
+}
+
+/*styling for the count text*/
+.texttwo {
+font-size: 100%;
+margin-left: 45%;
+}
+
+/*link to feedback form page*/
+.page-link2 {
+    position: absolute;
+    top: 110%;
+    margin-left: 60%;
+    font-size: 100%;
+}
+
+/*styling for enter the clone wars link*/
+.page-link2 {
+    font-family: 'Orbitron', sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    letter-spacing: 5px;
+    display:inline-block;
+    text-shadow: 3px 3px 3px blue;
+    text-transform:uppercase;    
+}
+
+.page-link2:hover{
+    color: yellow;
+}
+
+/*styling for form page on smaller devices*/
+.form-background {
+    background-image: url("../../assets/images/rex-alert-pic1200.jpg");
+    background-size: cover;
+}
+
+}
 
 /*For large to medium screens sizes from 600px wide and down */
 @media screen and (max-width: 400px) {
@@ -367,7 +529,7 @@ header a {
       /*styling for header on home page*/
     h1 {
         text-align: center;
-        font-size: 250%;
+        font-size: 300%;
         font-weight: 300;
         letter-spacing: 5px; 
         text-shadow: 5px 5px 5px greenyellow;
@@ -398,7 +560,7 @@ header a {
     margin-left: 15%;
     margin-right: 15%;
     font-size: 100%;
-    color:Black;
+    color:white;
 }
 
   /*for positioning of game link on the enter page*/
