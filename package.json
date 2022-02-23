@@ -1,0 +1,13 @@
+{
+  "name": "jest",
+  "version": "1.0.0",
+  "description": "Testing Jest Framework",
+  "main": "index.html",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
+  },
+  "keywords": ["javascript", "starter"]
+}
