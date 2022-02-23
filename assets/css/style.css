@@ -330,6 +330,12 @@ header a {
 /*this section is all for media queries to make each page responsive to different devices*/
 /* For large to medium screens sizes from 1200px wide and down */
 @media screen and (max-width: 1200px) {
+    /*styling for the enter game link*/
+    .page-link {
+        position: absolute;
+        top: 90%;
+        margin-left: 20%;
+    }
 /*styling for the game page image*/
     .clone-wars {
         background-repeat: repeat;
