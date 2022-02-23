@@ -265,3 +265,5 @@ function winGame() {
   win = true;
   alert("Well done soldier, you've hit all the targets!Welcome to the 501st!");
 }
+
+module.exports = play;
