@@ -330,6 +330,45 @@ header a {
 /*this section is all for media queries to make each page responsive to different devices*/
 /* For large to medium screens sizes from 1200px wide and down */
 @media screen and (max-width: 1200px) {
+/*styling for the game page image*/
+    .clone-wars {
+        background-repeat: repeat;
+    }
+
+    #farleft {
+        display: inline-block;
+        height: 225px;
+        width: 225px;
+    }
+    
+    #middleleft {
+        display: inline-block;
+        height: 225px;
+        width: 225px;
+    }
+    
+    #middleright {
+        height: 225px;
+        width: 225px;
+    }
+    
+    #farright {
+        height: 225px;
+        width: 225px;
+    }
+    
+    /*link to feedback form page*/
+    .page-link2 {
+        position: absolute;
+        top: 120%;
+        margin-left: 60%;
+        font-size: 130%;
+}
+
+    /*styling for form page on smaller devices*/
+    .form-background {
+        background-repeat: repeat;
+    }
 }
 
 
@@ -529,7 +568,7 @@ margin-left: 45%;
       /*styling for header on home page*/
     h1 {
         text-align: center;
-        font-size: 300%;
+        font-size: 250%;
         font-weight: 300;
         letter-spacing: 5px; 
         text-shadow: 5px 5px 5px greenyellow;
@@ -538,7 +577,7 @@ margin-left: 45%;
   h3 {
     text-align: center;
     text-decoration: underline;
-    font-size: 150%;
+    font-size: 100%;
     font-weight: 300;
     letter-spacing: 10px; 
 }
@@ -550,7 +589,7 @@ margin-left: 45%;
     margin-top: 3%;
     margin-left: 5%;
     margin-right: 5%;
-    font-size: 120%;
+    font-size: 100%;
 }
 /*styling for the instruction section on the enter page*/
 .instructions {
@@ -566,9 +605,9 @@ margin-left: 45%;
   /*for positioning of game link on the enter page*/
   .page-link {
     position: absolute;
-    top: 80%;
+    top: 85%;
     margin-left: 5%;
-    font-size: 200%;
+    font-size: 150%;
     
 }
 
@@ -661,9 +700,9 @@ margin-left: 40%;
 /*link to feedback form page*/
 .page-link2 {
     position: absolute;
-    top: 90%;
-    margin-left: 5%;
-    font-size: 150%;
+    top: 128%;
+    margin-left: 8%;
+    font-size: 100%;
 }
 
 /*styling for enter the clone wars link*/
