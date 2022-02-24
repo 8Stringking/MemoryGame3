@@ -196,9 +196,13 @@ I have carried out manual testing on the following devices to test responsivenes
 * iphone 7
 * iphone 8
 * Google Pixel 5
-* Ipad/Ipad Pro
+* Ipad
 * Tablets
 * Laptops
+
+- Below is the results from the responsiveness test ran on [Am I Responsive](http://ami.responsivedesign.is/#) which is also where this image was made.
+
+![am-i-responsive-proof](assets/images/amiresponsive.jpg)
 
 ## 9. Bugs
 [Go to the top](#table-of-contents)
