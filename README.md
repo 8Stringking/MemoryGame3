@@ -126,9 +126,9 @@ Below is the original wireframes created for the game, and as you can see I was 
 * [W3C Markup](https://validator.w3.org/) (used for validating the html5 code)
 * [Jigsaw Validator](https://jigsaw.w3.org/css-validator/) (used for validating the CSS code)
 * [Reaper DAW](https://www.reaper.fm/) (used for making the blaster sounds for the game)
-js lint
-js hint 
-am i responsive
+* [JSLint](https://www.jslint.com/) (used for validating the javascript code)
+* [JSHint](https://jshint.com/) (this was also used for validating javascript code and double checking results from JSLint)
+* [Am I Responsive](http://ami.responsivedesign.is/#) (used to generate the live site images, and also used to test responsiveness)
 
 ## 8.Testing
 [Go to the top](#table-of-contents)
@@ -146,22 +146,25 @@ am i responsive
 
 ### CSS Validation
 
+- Below is the validation for the CSS styling, No errors found
+![css-validation](assets/images/code-validation-images/css.jpg)
 
 ### Javascript Validation
 
+Below is the test results from JSLint. Unfortunately there was 1 error that i could not resolve. Which is the unexpected 'let' on line 88:10. I treied to rewrite the code to avoid this error and including research was unable to clear this error. However in my research I found that many other users come across this issue, and unfortunately the few who have been able to fix this, when implementing their fixes, this did not get rid of the error.
 
-## Responsiveness Testing
+![JSLint-validation](assets/images/code-validation-images/jslintvalidation.jpg)
 
-I have carried out manual testing on the following devices to test responsiveness, all links worked correctly, and on all devices the game functions as intended. The devices were tested on the following:
+So, in an attempt to verify this result, I ran the javascript code through [JSHint](https://jshint.com/) and this uncovered no errors in the code shown in the picture below:
 
-* iphone 5
-* iphone 6
-* iphone 7
-* iphone 8
-* Google Pixel 5
-* Ipad/Ipad Pro
-* Tablets
-* Laptops
+![JSHint-validation](assets/images/code-validation-images/jshintvalidation.jpg)
+
+The next thing I did to test my javascript code was to conduct unit tests which are located in the test-JS-file called 'sum.test.js'
+
+![Js-unit-test](assets/images/code-validation-images/js-tests.jpg)
+
+
+### Manual Testing
 
 Test            | Outcome                          | Result
 --------------- | -------------------------------- | ------------
@@ -178,7 +181,24 @@ Game User Story 7 | The user can play with accuracy button engaged, which when a
 Game User Story 8 | Is the user notified if the user has Won the game? | Pass
 Game | Does an alert box pop up to tell the user if the user has won/lost the game? | Pass
 Game User Story 9 | I can give myfeedback/comments on what i think of the game? | Pass
-Booking Form | Does the form successfully submit data? Does the calendar work when icon is clicked | Pass
+Booking Form | Does the submit button work correctly? Does the form successfully submit data? Does the calendar work when icon is clicked | Pass
+
+- Below is the conformation that the form works as intended and indeed will submit data.
+
+![Form-results-test](assets/images/code-validation-images/form-test.jpg)
+
+## Responsiveness Testing
+
+I have carried out manual testing on the following devices to test responsiveness, all links worked correctly, and on all devices the game functions as intended. The devices were tested on the following:
+
+* iphone 5
+* iphone 6
+* iphone 7
+* iphone 8
+* Google Pixel 5
+* Ipad/Ipad Pro
+* Tablets
+* Laptops
 
 ## 9. Bugs
 [Go to the top](#table-of-contents)
