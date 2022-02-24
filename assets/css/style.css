@@ -383,8 +383,6 @@ header a {
     /*for the home screen background image which changes on mobile devices*/
     .enter-battlefield {
         background-image: url("../../assets/images/rex-alert-pic1200.jpg");
-        background-image: cover;
-        max-height: auto;
     }
 
     img {
@@ -408,6 +406,8 @@ header a {
     font-size: 200%;
     font-weight: 300;
     letter-spacing: 10px; 
+    color:white;
+    text-shadow: 3px 3px 3px red;
 }
 /*styling for the introduction to the game on the enter page*/
   .intro-text {
@@ -561,8 +561,6 @@ margin-left: 45%;
     /*for the home screen background image which changes on mobile devices*/
     .enter-battlefield {
         background-image: url("../../assets/images/rexmobile600.jpg");
-        background-image: cover;
-        max-height: auto;
     }
 
     img {
@@ -769,8 +767,6 @@ margin-left: 40%;
   /*for the home screen background image which changes on mobile devices*/
     .enter-battlefield {
         background-image: url("../../assets/images/rexmobile.jpg");
-        background-image: cover;
-        max-height: auto;
     }
 
     img {
