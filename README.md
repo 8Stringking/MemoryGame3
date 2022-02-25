@@ -129,7 +129,7 @@ Below is the original wireframes created for the game, and as you can see I was 
 * [JSLint](https://www.jslint.com/) (used for validating the javascript code)
 * [JSHint](https://jshint.com/) (this was also used for validating javascript code and double checking results from JSLint)
 * [Am I Responsive](http://ami.responsivedesign.is/#) (used to generate the live site images, and also used to test responsiveness)
-* [Freecodecamp](https://www.freecodecamp.com/) (for help and problem solving the javascript logic)
+* [Freecodecamp](https://www.freecodecamp.com/) (for help and problem solving the javascript logic and the switches section)
 * [Web Dev Junkie](https://github.com/codyseibert/youtube) (for help and problem solving the javascript logic)
 * [W3schools](https://www.w3schools.com/)(for help and problem solving the javascript logic)
 
