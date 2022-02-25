@@ -9,6 +9,8 @@ The Overall aim of this project is to have built a functional memory game that i
 
 ![am-i-responsive-proof](assets/images/amiresponsive.jpg)
 
+- Live website link https://8stringking.github.io/MemoryGame3/
+
 ## Contents
 
 ### 1.Purpose of The Game/ Value To User
