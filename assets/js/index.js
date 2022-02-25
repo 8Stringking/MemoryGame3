@@ -48,7 +48,10 @@ powerButton.addEventListener("click", function (event)
   if (powerButton.checked == true)
   {
     power = true;
-    //to create the lines in counter to show power button has been activated:
+    /*
+    to create the lines in counter to show power button has been activated:
+    this section of code is from freecodecamp/webdevjunkie
+    */
     turnCounter.innerHTML = "-";
   }
   else
@@ -133,6 +136,7 @@ the css using .style to make the
 panels change color when they flash
 for each of the panels
 */
+//this section of code is from freecodecamp/webdevjunkie
 function one()
 {
   if (noise)
@@ -177,6 +181,7 @@ function four()
   farRight.style.backgroundColor = "lightskyblue";
 }
 //this is to revert panels to orignal colors after flashing:
+//this section of code is from freecodecamp/webdevjunkie
 function clearColor()
 {
   farLeft.style.backgroundColor = "darkgreen";
@@ -264,6 +269,7 @@ player loosing and to get the game
 to restart flashing if the player
 hits an incorrect panel
 */
+//webdevjunkie
 function check()
 {
   if (playerOrder[playerOrder.length - 1] !== order[playerOrder.length - 1])
