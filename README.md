@@ -7,6 +7,7 @@ The Overall aim of this project is to have built a functional memory game that i
 
 ## Live Site Images
 
+![am-i-responsive-proof](assets/images/amiresponsive.jpg)
 
 ## Contents
 
@@ -31,14 +32,14 @@ The Overall aim of this project is to have built a functional memory game that i
 ### 10. Deployment
 
 ## 1.Purpose of The Game/ Value To User
-  [Go to the top](#table-of-contents)
+  [Go to the top](#contents)
 
 The purpose of this game is to provide star wars fans a fun memory game that is similar to the 80's game Simon, but with the type of escapism that is typical of star wars films. In the form of stunning imagery, and subtle references that star wars fans know all too well while testing their memory ability.
 
 The value to the user is definately evoking a positive emotional response, while being functional in testing memory ability. This is done by blaster sounds in the game that is from the prequel trilogy, the introduction and instructions that have been written as if a commander of the clone troopers (501st, Captain Rex) was saying them himself. And the overall imagery of the game highlighting the clone troopers including some images not every fan has seen before, as currently I have found no such game in existance that provides these aspects.
 
 ## 2.Target Audience
-[Go to the top](#table-of-contents)
+[Go to the top](#contents)
 
 The target audience for the game is set for two age groups. 
 
@@ -47,7 +48,7 @@ The target audience for the game is set for two age groups.
 - 10 - 20 years old. Due to the popularity of Disney+ that now includes the back catalogue of star wars material, people of this age can conviently rewatch all the animated series along with the films and immerse themself in the story behind the clone troopers.
 
 ## 3.User Stories
-[Go to the top](#table-of-contents)
+[Go to the top](#contents)
 
 1. - I am presented with an enter screen with instructions to the game.
 
@@ -68,7 +69,7 @@ The target audience for the game is set for two age groups.
 9. - I can give myfeedback/comments on what I think of the game
 
 ## 4.Web Design
-[Go to the top](#table-of-contents)
+[Go to the top](#contents)
 
 This website has been designed with the following main principles:
 - Simple and easy to navigate
@@ -89,7 +90,7 @@ The alert messages also are written in classic clone commander fashion, and even
 In conclusion with ensuring there is no issues with background and foreground content, I believe i have met the ideas and targets for this site in creating a site where mental ability can be functionally tested while immersing the user within the star wars universe!
 
 ## 5.Wire Frames
-[Go to the top](#table-of-contents)
+[Go to the top](#contents)
 
 Below is the original wireframes created for the game, and as you can see I was able to stick quite close to the original intended plans, and i was pleased to be able to keep it simple for the user to be able to easily navigate the site and the game itself, but also injecting the star wars feel that was so important for this game.
 
@@ -100,7 +101,7 @@ Below is the original wireframes created for the game, and as you can see I was 
 ![feedback-page](assets/images/wireframes/wireframefeedbackpage.jpg)
 
 ## 6.Website Walkthrough 
-[Go to the top](#table-of-contents)
+[Go to the top](#contents)
 
 ![enter-page](assets/images/website-walkthrough/enterpage2.jpg)
 - This relates to user story 1.
@@ -113,7 +114,7 @@ Below is the original wireframes created for the game, and as you can see I was 
 - This relates to user story 9.
 
 ## 7. Methods for creating the site 
-[Go to the top](#table-of-contents)
+[Go to the top](#contents)
 
 * [HTML5](https://en.wikipedia.org/wiki/HTML) (was used for structuring and presenting content of the website)
 * [CSS](https://en.wikipedia.org/wiki/CSS) (used for the styling of the content)
@@ -134,7 +135,7 @@ Below is the original wireframes created for the game, and as you can see I was 
 * [W3schools](https://www.w3schools.com/)(for help and problem solving the javascript logic)
 
 ## 8.Testing
-[Go to the top](#table-of-contents)
+[Go to the top](#contents)
 
 ### HTML Validation
 
@@ -208,7 +209,7 @@ I have carried out manual testing on the following devices to test responsivenes
 ![am-i-responsive-proof](assets/images/amiresponsive.jpg)
 
 ## 9. Bugs
-[Go to the top](#table-of-contents)
+[Go to the top](#contents)
 
 There was only 1 bug found in testing while the game was active, using developer tools in [Chrome](https://www.google.com/intl/en_uk/chrome/). Which is shown below:
 
@@ -217,7 +218,7 @@ There was only 1 bug found in testing while the game was active, using developer
 This is due to a favicon file missing, all attempts to rectify this issue have not resolved this error, however this is nothing to do with the javascript, nor the functionality of the game.
 
 ## 10. Deployment
-[Go to the top](#table-of-contents)
+[Go to the top](#contents)
 
 The site was deployed to GitHub following these steps:
 
