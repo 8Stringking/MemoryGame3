@@ -129,6 +129,9 @@ Below is the original wireframes created for the game, and as you can see I was 
 * [JSLint](https://www.jslint.com/) (used for validating the javascript code)
 * [JSHint](https://jshint.com/) (this was also used for validating javascript code and double checking results from JSLint)
 * [Am I Responsive](http://ami.responsivedesign.is/#) (used to generate the live site images, and also used to test responsiveness)
+* [Freecodecamp](https://www.freecodecamp.com/) (for help and problem solving the javascript logic)
+* [Web Dev Junkie](https://github.com/codyseibert/youtube) (for help and problem solving the javascript logic)
+* [W3schools](https://www.w3schools.com/)(for help and problem solving the javascript logic)
 
 ## 8.Testing
 [Go to the top](#table-of-contents)
@@ -207,6 +210,11 @@ I have carried out manual testing on the following devices to test responsivenes
 ## 9. Bugs
 [Go to the top](#table-of-contents)
 
+There was only 1 bug found in testing while the game was active, using developer tools in [Chrome](https://www.google.com/intl/en_uk/chrome/). Which is shown below:
+
+![chrome-dev-tool-error](assets/images/code-validation-images/chromdevtoolerror.jpg)
+
+This is due to a favicon file missing, all attempts to rectify this issue have not resolved this error, however this is nothing to do with the javascript, nor the functionality of the game.
 
 ## 10. Deployment
 [Go to the top](#table-of-contents)
