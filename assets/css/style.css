@@ -232,7 +232,6 @@ body {
   
   /*link to feedback form page*/
   .page-link2 {
-    position: absolute;
     top: 85%;
     text-align: right;
     margin-left: 60%;
@@ -363,7 +362,6 @@ body {
   
     /*link to feedback form page*/
     .page-link2 {
-      position: absolute;
       top: 120%;
       margin-left: 60%;
       font-size: 130%;
@@ -521,7 +519,6 @@ body {
   
     /*link to feedback form page*/
     .page-link2 {
-      position: absolute;
       top: 110%;
       margin-left: 60%;
       font-size: 100%;
@@ -693,7 +690,6 @@ body {
   
     /*link to feedback form page*/
     .page-link2 {
-      position: absolute;
       top: 128%;
       margin-left: 8%;
       font-size: 100%;
@@ -894,7 +890,6 @@ body {
   
       /*link to feedback form page*/
       .page-link2 {
-        position: absolute;
         top: 90%;
         margin-left: 57%;
         font-size: 80%;
