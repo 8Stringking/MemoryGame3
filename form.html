@@ -1,48 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!--boostrap mobile first responsive meta tag-->
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-    <title>Clone Wars Memory Game</title>
-</head>
-<body class="form-background">
-    <header>
-           <a href="index.html">
-              <h2 id="logo">Clone Wars Memory Game</h2>
-           </a>
-        <!--navigation bar-->
-           <nav>
-               <ul id="menu">
-                   <li>
-                       <a href="game.html">Game</a>
-                   </li>
-                   <li>
-                       <a href="index.html">Home</a>
-                   </li>
-               </ul>
-           </nav>
-     </header>
-     <!--this div is for the overal body of the form-->
-    <div class="form-section">
-        <!--code for the actual form itself and its inputs including submit button-->
-        <form action="https://formdump.codeinstitute.net/" method="post" class="feedback">
+   <head>
+      <meta charset="UTF-8"/>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+      <!--boostrap mobile first responsive meta tag-->
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+      <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+      <title>Clone Wars Memory Game</title>
+   </head>
+   <body class="form-background">
+      <header>
+         <a href="index.html">
+            <h2 id="logo">Clone Wars Memory Game</h2>
+         </a>
+         <!--navigation bar-->
+         <nav>
+            <ul id="menu">
+               <li>
+                  <a href="game.html">Game</a>
+               </li>
+               <li>
+                  <a href="index.html">Home</a>
+               </li>
+            </ul>
+         </nav>
+      </header>
+      <!--this div is for the overal body of the form-->
+      <div class="form-section">
+         <!--code for the actual form itself and its inputs including submit button-->
+         <form
+            action="https://formdump.codeinstitute.net/"
+            method="post"
+            class="feedback">
             <label for="player-name">Player Name</label>
-		    <input class="text-input" id="player-name" type="text" name="player-name" required aria-label="player-name">
-		    <label for="date-played">Date Played</label>
-			<input id="date-played" type="date" name="date-played" required aria-label="date-played">
+            <input
+               class="text-input"
+               id="player-name"
+               type="text"
+               name="player-name"
+               required
+               aria-label="player-name">
+            <label for="date-played">Date Played</label>
+            <input
+               id="date-played"
+               type="date"
+               name="date-played"
+               required
+               aria-label="date-played">
             <br>
-			<label for="change">What would you change?</label>
-			<input class="text-input2" id="change" type="text" name="change" required aria-label="What-would-you-change">
-			<label for="favourite">Favourite aspects of the game</label>
-			<input class="text-input2" id="favourite" type="text" name="favourite" required aria-label="favourite-aspects-of-the-game">
-			<label for="other">Other Comments/feedback</label>
-			<input class="text-input2" id="other" type="text" name="other" required aria-label="Other-Comments-feedback">
-            <input class="submit" type="submit" value="submit" aria-label="submit"> 
-        </form>
-    </div>
-    
-</body>
+            <label for="change">What would you change?</label>
+            <input
+               class="text-input2"
+               id="change"
+               type="text"
+               name="change"
+               required
+               aria-label="What-would-you-change">
+            <label for="favourite">Favourite aspects of the game</label>
+            <input
+               class="text-input2"
+               id="favourite"
+               type="text"
+               name="favourite"
+               required
+               aria-label="favourite-aspects-of-the-game">
+            <label for="other">Other Comments/feedback</label>
+            <input
+               class="text-input2"
+               id="other"
+               type="text"
+               name="other"
+               required
+               aria-label="Other-Comments-feedback">
+            <input
+               class="submit"
+               type="submit"
+               value="submit"
+               aria-label="submit">
+         </form>
+      </div>
+   </body>
 </html>
