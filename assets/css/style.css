@@ -38,6 +38,8 @@ img {
    text-shadow: 3px 3px 3px red;
    text-transform: uppercase;
    text-align: center;
+   background-color: rgba(169,169,169, 0.5);
+   padding: 3px;
 }
 
 .page-link:hover {
@@ -332,6 +334,8 @@ header a {
       position: absolute;
       top: 90%;
       margin-left: 20%;
+      background-color: rgba(169,169,169, 0.5);
+      padding: 3px;
    }
    /*styling for the game page image*/
    .clone-wars {
@@ -443,6 +447,8 @@ header a {
       text-shadow: 3px 3px 3px red;
       text-transform: uppercase;
       text-align: center;
+      background-color: rgba(169,169,169, 0.5);
+      padding: 3px;
    }
 
    .page-link:hover {
@@ -614,6 +620,8 @@ header a {
       text-shadow: 3px 3px 3px red;
       text-transform: uppercase;
       text-align: center;
+      background-color: rgba(169,169,169, 0.5);
+      padding: 3px;
    }
 
    .page-link:hover {
@@ -785,6 +793,8 @@ header a {
          text-shadow: 3px 3px 3px red;
          text-transform: uppercase;
          text-align: center;
+         background-color: rgba(169,169,169, 0.5);
+         padding: 3px;
       }
 
       .page-link:hover {
