@@ -606,7 +606,7 @@ header a {
    .page-link {
       position: absolute;
       top: 85%;
-      margin-left: 5%;
+      margin-left: 3%;
       font-size: 150%;
    }
 
@@ -779,7 +779,7 @@ header a {
       .page-link {
          position: absolute;
          top: 85%;
-         margin-left: 5%;
+         margin-left: 2%;
          font-size: 100%;
       }
 
