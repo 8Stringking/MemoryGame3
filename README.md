@@ -7,7 +7,7 @@ The Overall aim of this project is to have built a functional memory game that i
 
 ## Live Site Images
 
-![am-i-responsive-proof](assets/images/amiresponsive.jpg)
+![am-i-responsive-proof](assets/images/am-i-responsive.jpg)
 
 - Live website link https://8stringking.github.io/MemoryGame3/
 
@@ -96,22 +96,22 @@ In conclusion with ensuring there is no issues with background and foreground co
 
 Below is the original wireframes created for the game, and as you can see I was able to stick quite close to the original intended plans, and i was pleased to be able to keep it simple for the user to be able to easily navigate the site and the game itself, but also injecting the star wars feel that was so important for this game.
 
-![enter-page](assets/images/wireframes/wireframeenterpage.jpg)
+![enter-page](assets/images/wireframes/wireframe-enter-page.jpg)
 
-![game-page](assets/images/wireframes/wireframegamepage.jpg)
+![game-page](assets/images/wireframes/wireframe-game-page.jpg)
 
-![feedback-page](assets/images/wireframes/wireframefeedbackpage.jpg)
+![feedback-page](assets/images/wireframes/wireframe-feedback-page.jpg)
 
 ## 6.Website Walkthrough 
 [Go to the top](#contents)
 
-![enter-page](assets/images/website-walkthrough/enterpage2.jpg)
+![enter-page](assets/images/website-walkthrough/enter-page-2.jpg)
 - This relates to user story 1.
 
-![game-page](assets/images/website-walkthrough/gamepage2.jpg)
+![game-page](assets/images/website-walkthrough/game-page-2.jpg)
 - This relates to user story 2 - 8, as they are to do with gameplay. Also if incorrect sequence is inputted by the user a alert box will pop up telling the user, also if the user wins a alert box will tell the user this as well.
 
-![forms-page](assets/images/website-walkthrough/formspage.jpg)
+![forms-page](assets/images/website-walkthrough/forms-page.jpg)
 
 - This relates to user story 9.
 
@@ -142,13 +142,13 @@ Below is the original wireframes created for the game, and as you can see I was 
 ### HTML Validation
 
 - Below is the validation for the Enter page, No errors found
-![enter-page-validation](assets/images/code-validation-images/enterpagevalidation.jpg)
+![enter-page-validation](assets/images/code-validation-images/enter-page-validation.jpg)
 
 - Below is the validation for the Game page, No errors found
-![game-page-validation](assets/images/code-validation-images/gamepagevalidation.jpg)
+![game-page-validation](assets/images/code-validation-images/game-page-validation.jpg)
 
 - Below is the validation for the Feedback Form page, No errors found
-![form-page-validation](assets/images/code-validation-images/formspagevalidation.jpg)
+![form-page-validation](assets/images/code-validation-images/forms-page-validation.jpg)
 
 ### CSS Validation
 
@@ -159,11 +159,11 @@ Below is the original wireframes created for the game, and as you can see I was 
 
 Below is the test results from JSLint. Unfortunately there was 1 error that i could not resolve. Which is the unexpected 'let' on line 88:10. I treied to rewrite the code to avoid this error and including research was unable to clear this error. However in my research I found that many other users come across this issue, and unfortunately the few who have been able to fix this, when implementing their fixes, this did not get rid of the error.
 
-![JSLint-validation](assets/images/code-validation-images/jslintvalidation.jpg)
+![JSLint-validation](assets/images/code-validation-images/js-lint-validation.jpg)
 
 So, in an attempt to verify this result, I ran the javascript code through [JSHint](https://jshint.com/) and this uncovered no errors in the code shown in the picture below:
 
-![JSHint-validation](assets/images/code-validation-images/jshintvalidation.jpg)
+![JSHint-validation](assets/images/code-validation-images/js-hint-validation.jpg)
 
 The next thing I did to test my javascript code was to conduct unit tests which are located in the test-JS-file called 'sum.test.js'
 
@@ -208,14 +208,14 @@ I have carried out manual testing on the following devices to test responsivenes
 
 - Below is the results from the responsiveness test ran on [Am I Responsive](http://ami.responsivedesign.is/#) which is also where this image was made.
 
-![am-i-responsive-proof](assets/images/amiresponsive.jpg)
+![am-i-responsive-proof](assets/images/am-i-responsive.jpg)
 
 ## 9. Bugs
 [Go to the top](#contents)
 
 There was only 1 bug found in testing while the game was active, using developer tools in [Chrome](https://www.google.com/intl/en_uk/chrome/). Which is shown below:
 
-![chrome-dev-tool-error](assets/images/code-validation-images/chromdevtoolerror.jpg)
+![chrome-dev-tool-error](assets/images/code-validation-images/chrome-dev-tool-error.jpg)
 
 This is due to a favicon file missing, all attempts to rectify this issue have not resolved this error, however this is nothing to do with the javascript, nor the functionality of the game.
 

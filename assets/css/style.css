@@ -550,7 +550,7 @@ body {
   @media screen and (max-width: 400px) {
     /*for the home screen background image which changes on mobile devices*/
     .enter-battlefield {
-      background-image: url("../../assets/images/rexmobile600.jpg");
+      background-image: url("../../assets/images/rex-mobile-600.jpg");
     }
   
     img {
@@ -712,7 +712,7 @@ body {
   
     /*styling for form page on smaller devices*/
     .form-background {
-      background-image: url("../../assets/images/rexmobile600.jpg");
+      background-image: url("../../assets/images/rex-mobile-600.jpg");
       background-size: cover;
       background-repeat: repeat;
     }
@@ -749,7 +749,7 @@ body {
     @media screen and (max-width: 330px) {
       /*for the home screen background image which changes on mobile devices*/
       .enter-battlefield {
-        background-image: url("../../assets/images/rexmobile.jpg");
+        background-image: url("../../assets/images/rex-mobile.jpg");
       }
   
       img {
