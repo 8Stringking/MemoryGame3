@@ -54,7 +54,7 @@ h1 {
    text-shadow: 5px 5px 5px greenyellow;
 }
 
-h3 {
+h2 {
    text-align: center;
    text-decoration: underline;
    font-size: 150%;
@@ -395,7 +395,7 @@ header a {
       text-shadow: 5px 5px 5px greenyellow;
    }
    /*for the instruction title on enter page*/
-   h3 {
+   h2 {
       text-align: center;
       text-decoration: underline;
       font-size: 200%;
@@ -568,7 +568,7 @@ header a {
       text-shadow: 5px 5px 5px greenyellow;
    }
    /*for the instruction title on enter page*/
-   h3 {
+   h2 {
       text-align: center;
       text-decoration: underline;
       font-size: 100%;
@@ -792,7 +792,7 @@ header a {
       }
 
       /*for the instruction title on enter page*/
-      h3 {
+      h2 {
          text-align: center;
          text-decoration: underline;
          font-size: 100%;
