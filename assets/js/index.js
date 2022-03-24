@@ -31,22 +31,17 @@ const accuracyButton = document.querySelector("#accuracy");
 const powerButton = document.querySelector("#power");
 const startButton = document.querySelector("#start");
 //for checking weather the strict button has been activated or not:
-accuracyButton.addEventListener("click", (event) =>
-{
-  if (accuracyButton.checked == true)
-  {
+accuracyButton.addEventListener("click", (event) => {
+  if (accuracyButton.checked == true) {
     accuracy = true;
   }
-  else
-  {
+  else {
     accuracy = false;
   }
 });
 //what to do once the power button has been engaged:
-powerButton.addEventListener("click", function (event)
-{
-  if (powerButton.checked == true)
-  {
+powerButton.addEventListener("click", function (event) {
+  if (powerButton.checked == true) {
     power = true;
     /*
     to create the lines in counter to show power button has been activated:
@@ -54,8 +49,7 @@ powerButton.addEventListener("click", function (event)
     */
     turnCounter.innerHTML = "-";
   }
-  else
-  {
+  else {
     power = false;
     turnCounter.innerHTML = "";
     clearColor();
@@ -67,10 +61,8 @@ powerButton.addEventListener("click", function (event)
 this activates the game if/when the start
 button has been 'clicked'
 */
-startButton.addEventListener("click", function (event)
-{
-  if (power || win)
-  {
+startButton.addEventListener("click", function (event) {
+  if (power || win) {
     play();
   }
 });
@@ -78,8 +70,7 @@ startButton.addEventListener("click", function (event)
 this function included variables so that
 the game resets after use
 */
-function play()
-{
+function play() {
   win = false;
   order = [];
   playerOrder = [];
@@ -88,8 +79,7 @@ function play()
   turn = 1;
   turnCounter.innerHTML = 1;
   good = true;
-    for (let i = 0; i < 20; i += 1)
-  {
+    for (let i = 0; i < 20; i += 1) {
     //generating numbers for the pattern:
     order.push(Math.floor(Math.random() * 4) + 1);
   }
@@ -98,8 +88,7 @@ function play()
   intervalId = setInterval(gameTurn, 800);
 }
 
-function gameTurn()
-{
+function gameTurn() {
   power = false;
   /*
   stops user from being able to click buttons
@@ -109,18 +98,15 @@ function gameTurn()
   if the amount of flashes equals the turn counter
   this means the computers turn is over:
   */
-  if (flash == turn)
-  {
+  if (flash == turn) {
     clearInterval(intervalId);
     compTurn = false;
     clearColor();
     power = true;
   }
-  if (compTurn)
-  {
+  if (compTurn) {
     clearColor();
-    setTimeout(() =>
-    {
+    setTimeout(() => {
       if (order[flash] == 1) one();
       if (order[flash] == 2) two();
       if (order[flash] == 3) three();
@@ -137,10 +123,8 @@ panels change color when they flash
 for each of the panels
 */
 //this section of code is from freecodecamp/webdevjunkie
-function one()
-{
-  if (noise)
-  {
+function one() {
+  if (noise) {
     let audio = document.getElementById("clip1");
     audio.play();
   }
@@ -148,10 +132,8 @@ function one()
   farLeft.style.backgroundColor = "lightgreen";
 }
 
-function two()
-{
-  if (noise)
-  {
+function two() {
+  if (noise) {
     let audio = document.getElementById("clip2");
     audio.play();
   }
@@ -159,10 +141,8 @@ function two()
   middleLeft.style.backgroundColor = "tomato";
 }
 
-function three()
-{
-  if (noise)
-  {
+function three() {
+  if (noise) {
     let audio = document.getElementById("clip3");
     audio.play();
   }
@@ -170,10 +150,8 @@ function three()
   middleRight.style.backgroundColor = "yellow";
 }
 
-function four()
-{
-  if (noise)
-  {
+function four() {
+  if (noise){
     let audio = document.getElementById("clip4");
     audio.play();
   }
@@ -182,81 +160,63 @@ function four()
 }
 //this is to revert panels to orignal colors after flashing:
 //this section of code is from freecodecamp/webdevjunkie
-function clearColor()
-{
+function clearColor() {
   farLeft.style.backgroundColor = "darkgreen";
   middleLeft.style.backgroundColor = "darkred";
   middleRight.style.backgroundColor = "goldenrod";
   farRight.style.backgroundColor = "darkblue";
 }
 //this is what the colors will flash to:
-function flashColor()
-{
+function flashColor() {
   farLeft.style.backgroundColor = "lightgreen";
   middleLeft.style.backgroundColor = "tomato";
   middleRight.style.backgroundColor = "yellow";
   farRight.style.backgroundColor = "lightskyblue";
 }
 
-farLeft.addEventListener("click", function (event)
-{
-  if (power)
-  {
+farLeft.addEventListener("click", function (event) {
+  if (power) {
     playerOrder.push(1);
     check();
     one();
-    if (!win)
-    {
-      setTimeout(() =>
-      {
+    if (!win) {
+      setTimeout(() => {
         clearColor();
       }, 300);
     }
   }
 });
-middleLeft.addEventListener("click", function (event)
-{
-  if (power)
-  {
+middleLeft.addEventListener("click", function (event) {
+  if (power) {
     playerOrder.push(2);
     check();
     two();
-    if (!win)
-    {
-      setTimeout(() =>
-      {
+    if (!win) {
+      setTimeout(() => {
         clearColor();
       }, 300);
     }
   }
 });
-middleRight.addEventListener("click", function (event)
-{
-  if (power)
-  {
+middleRight.addEventListener("click", function (event) {
+  if (power) {
     playerOrder.push(3);
     check();
     three();
-    if (!win)
-    {
-      setTimeout(() =>
-      {
+    if (!win) {
+      setTimeout(() => {
         clearColor();
       }, 300);
     }
   }
 });
-farRight.addEventListener("click", function (event)
-{
-  if (power)
-  {
+farRight.addEventListener("click", function (event) {
+  if (power) {
     playerOrder.push(4);
     check();
     four();
-    if (!win)
-    {
-      setTimeout(() =>
-      {
+    if (!win) {
+      setTimeout(() => {
         clearColor();
       }, 300);
     }
@@ -270,29 +230,23 @@ to restart flashing if the player
 hits an incorrect panel
 */
 //webdevjunkie
-function check()
-{
+function check() {
   if (playerOrder[playerOrder.length - 1] !== order[playerOrder.length - 1])
     good = false;
-  if (playerOrder.length == 10 && good)
-  {
+  if (playerOrder.length == 10 && good) {
     winGame();
   }
-  if (good == false)
-  {
+  if (good == false) {
     alert("The greatest teacher, failure is, better luck next time soldier!");
     flashColor();
     turnCounter.innerHTML = "NO!";
-    setTimeout(function ()
-    {
+    setTimeout(function () {
       turnCounter.innerHTML = turn;
       clearColor();
-      if (accuracy)
-      {
+      if (accuracy) {
         play();
       }
-      else
-      {
+      else {
         compTurn = true;
         flash = 0;
         playerOrder = [];
@@ -302,8 +256,7 @@ function check()
     }, 800);
     noise = false;
   }
-  if (turn == playerOrder.length && good && !win)
-  {
+  if (turn == playerOrder.length && good && !win) {
     turn++;
     playerOrder = [];
     compTurn = true;
@@ -313,8 +266,7 @@ function check()
   }
 }
 //for when the player wins the game:
-function winGame()
-{
+function winGame() {
   flashColor();
   turnCounter.innerHTML = "HIT!";
   power = false;
