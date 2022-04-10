@@ -85,7 +85,7 @@ h2 {
 
 /*background image for game screen*/
 .clone-wars {
-   background-image: url("../../assets/images/red-trooper.jpg");
+   background-image: url("../../assets/images/clone-battleship.jpg");
    background-repeat: no-repeat;
    background-size: cover;
 }
@@ -257,7 +257,7 @@ header a {
 }
 
 .form-background {
-   background-image: url("../../assets/images/captain-rex.jpg");
+   background-image: url("../../assets/images/form-battleship.jpg");
    background-repeat: no-repeat;
    background-size: cover;
    max-width: 100%;
@@ -339,7 +339,9 @@ header a {
    }
    /*styling for the game page image*/
    .clone-wars {
+      background-image: url("../../assets/images/clone-battleship.jpg");
       background-repeat: repeat;
+      background-size: cover;
    }
 
    #farleft {
@@ -381,7 +383,7 @@ header a {
 @media screen and (max-width: 768px) {
    /*for the home screen background image which changes on mobile devices*/
    .enter-battlefield {
-      background-image: url("../../assets/images/rex-alert-pic1200.jpg");
+      background-image: url("../../assets/images/clone-ashoka.jpg");
    }
 
    img {
@@ -457,10 +459,9 @@ header a {
 
    /*styling for the game page image*/
    .clone-wars {
-      background-size: cover;
+      background-image: url("../../assets/images/clone-battleship.jpg");
       background-repeat: repeat;
-      max-width: 100%;
-      height: auto;
+      background-size: cover;
    }
 
    /*code for title of the game page and its styling*/
@@ -547,7 +548,7 @@ header a {
 
    /*styling for form page on smaller devices*/
    .form-background {
-      background-image: url("../../assets/images/rex-alert-pic1200.jpg");
+      background-image: url("../../assets/images/form-mobile-battleship.jpg");
       background-size: cover;
    }
 }
@@ -556,7 +557,7 @@ header a {
 @media screen and (max-width: 400px) {
    /*for the home screen background image which changes on mobile devices*/
    .enter-battlefield {
-      background-image: url("../../assets/images/rex-mobile-600.jpg");
+      background-image: url("../../assets/images/clone-ashoka.jpg");
    }
 
    img {
@@ -630,10 +631,9 @@ header a {
 
    /*styling for the game page image*/
    .clone-wars {
-      background-size: cover;
+      background-image: url("../../assets/images/clone-battleship.jpg");
       background-repeat: repeat;
-      max-width: 100%;
-      height: auto;
+      background-size: cover;
    }
 
    /*code for title of the game page and its styling*/
@@ -720,7 +720,7 @@ header a {
 
    /*styling for form page on smaller devices*/
    .form-background {
-      background-image: url("../../assets/images/rex-mobile-600.jpg");
+      background-image: url("../../assets/images/form-mobile-battleship.jpg");
       background-size: cover;
       background-repeat: repeat;
    }
@@ -757,7 +757,7 @@ header a {
    @media screen and (max-width: 330px) {
       /*for the home screen background image which changes on mobile devices*/
       .enter-battlefield {
-         background-image: url("../../assets/images/form-mobile-background.jpg");
+         background-image: url("../../assets/images/clone-ashoka.jpg");
       }
 
       img {
