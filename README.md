@@ -7,7 +7,7 @@ The Overall aim of this project is to have built a functional memory game that i
 
 ## Live Site Images
 
-![am-i-responsive-proof](assets/images/am-i-responsive.jpg)
+![am-i-responsive-proof](assets/images/am-i-responsive-2.jpg)
 
 - Live website link https://8stringking.github.io/MemoryGame3/
 
@@ -108,10 +108,10 @@ Below is the original wireframes created for the game, and as you can see I was 
 ![enter-page](assets/images/website-walkthrough/enter-page-2.jpg)
 - This relates to user story 1.
 
-![game-page](assets/images/website-walkthrough/game-page-2.jpg)
+![game-page](assets/images/website-walkthrough/game-battleship-walkthrough.jpg)
 - This relates to user story 2 - 8, as they are to do with gameplay. Also if incorrect sequence is inputted by the user a alert box will pop up telling the user, also if the user wins a alert box will tell the user this as well.
 
-![forms-page](assets/images/website-walkthrough/forms-page.jpg)
+![forms-page](assets/images/website-walkthrough/form-page-battleship-walkthrough.jpg)
 
 - This relates to user story 9.
 
