@@ -170,7 +170,10 @@ The next thing I did to test my javascript code was to conduct unit tests which 
 ![Js-unit-test](assets/images/code-validation-images/js-tests.jpg)
 
 
-### Manual Testing
+## Manual Testing
+
+## Development Version
+
 
 Test            | Outcome                          | Result
 --------------- | -------------------------------- | ------------
@@ -188,6 +191,15 @@ Game User Story 8 | Is the user notified if the user has Won the game? | Pass
 Game | Does an alert box pop up to tell the user if the user has won/lost the game? | Pass
 Game User Story 9 | I can give myfeedback/comments on what i think of the game? | Pass
 Booking Form | Does the submit button work correctly? Does the form successfully submit data? Does the calendar work when icon is clicked | Pass
+
+## Deployed Version
+
+Test            | Outcome                          | Result
+--------------- | -------------------------------- | ------------
+Checked against development version | Has the development testing criteria been applied to the deployed version? Any issues? | Pass, No issues
+Visual Checks | Has visual checks been carried out in full on deployment version? | Yes, Pass
+Code checked | Has the code been checked for errors? | Yes, Pass
+Console errors | Is there any errors in the console? | Yes, as states in 9. Bugs, the chrome developer tool error is still there in deployment
 
 - Below is the conformation that the form works as intended and indeed will submit data.
 
