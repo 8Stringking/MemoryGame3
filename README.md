@@ -1,4 +1,4 @@
-![star wars](assets/images/readme-banner.jpg)
+![star wars](assets/images/read-me-banner.jpg)
 # Clone Wars Memory Game 
 
 Welcome to the Clone Wars Memory Game, which is a themed remake of the popular Simon memory game from the 80's. However this game is all based upon the clone troopers from the 501st regiment from the Star Wars prequel films, and most notably 'Attack of the Clones'. and 'Revenge of the Sith' aswell as the animated series 'The Clone Wars'.

@@ -757,7 +757,7 @@ header a {
    @media screen and (max-width: 330px) {
       /*for the home screen background image which changes on mobile devices*/
       .enter-battlefield {
-         background-image: url("../../assets/images/rex-mobile.jpg");
+         background-image: url("../../assets/images/form-mobile-background.jpg");
       }
 
       img {
@@ -827,14 +827,14 @@ header a {
          margin-left: 15%;
          margin-right: 15%;
          font-size: 80%;
-         color: Black;
+         color: white;
       }
 
       /*styling for the game page image*/
       .clone-wars {
-         max-width: 100%;
-         height: auto;
+         background-image: url("../../assets/images/clone-battleship.jpg");
          background-repeat: repeat;
+         background-size: cover;
       }
 
       /*code for title of the game page and its styling*/
@@ -922,7 +922,7 @@ header a {
 
       /*styling for form page on smaller devices*/
       .form-background {
-         background-image: url("../../assets/images/form-mobile-background.jpg");
+         background-image: url("../../assets/images/form-mobile-battleship.jpg");
          background-repeat: repeat;
          background-size: cover;
          max-width: 100%;
