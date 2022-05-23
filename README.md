@@ -220,7 +220,7 @@ I have carried out manual testing on the following devices to test responsivenes
 
 - Below is the results from the responsiveness test ran on [Am I Responsive](http://ami.responsivedesign.is/#) which is also where this image was made.
 
-![am-i-responsive-proof](assets/images/am-i-responsive.jpg)
+![am-i-responsive-proof](assets/images/am-i-responsive-2.jpg)
 
 ## 9. Bugs
 [Go to the top](#contents)
