@@ -58,7 +58,7 @@ h1 {
 h2 {
    text-align: center;
    text-decoration: underline;
-   font-size: 150%;
+   font-size: 250%;
    font-weight: 300;
    letter-spacing: 10px;
 }
@@ -410,7 +410,7 @@ header a {
    h2 {
       text-align: center;
       text-decoration: underline;
-      font-size: 250%;
+      font-size: 220%;
       font-weight: 300;
       letter-spacing: 10px;
       color: white;
@@ -593,6 +593,7 @@ header a {
    .form-section {
       margin-top: 45%;
       padding: 30px;
+      font-size: 150%;
    }
 }
 
